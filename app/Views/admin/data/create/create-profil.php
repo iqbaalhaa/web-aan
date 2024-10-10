@@ -34,25 +34,17 @@
 
 <nav>
                 <div class="row nav nav-tabs mt-4" id="nav-tab" role="tablist">
-                    <a class="nav-item nav-link active" id="custom-nav-home-tab" data-toggle="tab" href="#desa" role="tab" aria-controls="custom-nav-home" aria-selected="true"><b>DATA DESA</b></a>
-                    <a class="nav-item nav-link" id="custom-nav-profile-tab" data-toggle="tab" href="#Staff" role="tab" aria-controls="custom-nav-profile" aria-selected="false"><b>STAFF DESA</b></a>
+                    <a class="nav-item nav-link active" id="custom-nav-home-tab" data-toggle="tab" href="#desa" role="tab" aria-controls="custom-nav-home" aria-selected="true"><b>DATA KECAMATAN</b></a>
+                    <a class="nav-item nav-link" id="custom-nav-profile-tab" data-toggle="tab" href="#Staff" role="tab" aria-controls="custom-nav-profile" aria-selected="false"><b>STAFF KECAMATAN</b></a>
                     <a class="nav-item nav-link" id="custom-nav-contact-tab" data-toggle="tab" href="#Kua" role="tab" aria-controls="custom-nav-contact" aria-selected="false"><b>KUA</b></a>
                     
                 </div>
                 </nav>
             <div class="tab-content pl-3 pt-2" id="nav-tabContent">
             <div class="tab-pane fade show active" id="desa" role="tabpanel" aria-labelledby="custom-nav-home-tab">
-                  <h4 class="mt-4"><strong>DATA DESA: </strong></h4>
+                  <h4 class="mt-4"><strong>DATA KECAMATAN: </strong></h4>
                   <hr>
                      <div class="row mt-2">
-                     <div class="col-md-3">
-                        <label>Kode Desa</label>
-                        <input type="text" name="kodedesa" value="<?= $dt['kodedesa']; ?>" class="form-control col-md-12" required>
-                     </div>
-                     <div class="col-md-6">
-                        <label>Desa</label>
-                        <input type="text" name="desa" value="<?= $dt['desa']; ?>" class="form-control col-md-12" required>
-                     </div>
                   </div>
                   <div class="row mt-2">
                      <div class="col-md-3">
@@ -105,7 +97,7 @@
                         <input type="text" name="pos" value="<?= $dt['pos']; ?>" class="form-control col-md-12" required>
                      </div>
                   </div>
-                  <h4 class="mt-4"><strong>KEPALA DESA: </strong></h4>
+                  <h4 class="mt-4"><strong>CAMAT: </strong></h4>
                   <hr>
                   <div class="row mt-2">
                      <div class="col-md-4">
@@ -113,11 +105,11 @@
                         <input type="text" name="kades" value="<?= $dt['kades']; ?>" class="form-control col-md-12" required>
                      </div>
                      <div class="col-md-4">
-                        <label>NIP Kades</label>
+                        <label>NIP CAMAT</label>
                         <input type="text" name="nipkades" value="<?= $dt['nipkades']; ?>" class="form-control col-md-12" required>
                      </div>
                   </div>
-                  <h4 class="mt-4"><strong>LOGO DESA: </strong></h4>
+                  <h4 class="mt-4"><strong>LOGO : </strong></h4>
                   <hr>
                   <div class="row mt-2">
                      <div class="col-md-3" align="center">
@@ -125,7 +117,7 @@
                      </div>
                      <br>
                      <div class="col-md-9">
-                        <label for="logo">Logo Desa</label>
+                        <label for="logo">Logo</label>
                         <input type="file" id="logo" name="logo" value="<?= $dt['logo']; ?>" class="form-control col-md-12" required>
                      </div>
                   </div>
@@ -138,7 +130,7 @@
                         <option value="<?= $dt['jnp']; ?>"><?= $dt['jnp']; ?></option>
                            <option value="Desa">Desa</option>
                            <option value="Kelurahan">Kelurahan</option>
-                           <option value="Perbekel">Perbekel</option>
+                           <option value="Kecamatan">Kecamatan</option>
                            <option value="Pekon">Pekon</option>
                      </select>
                   </div>
