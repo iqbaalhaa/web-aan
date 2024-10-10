@@ -1,0 +1,565 @@
+INFO - 2023-10-27 05:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 05:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 05:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 05:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 05:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 05:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 05:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 05:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 05:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 05:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 05:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 05:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 05:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 06:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 06:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 06:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 06:38:03 --> Undefined array key 1
+in APPPATH\Views\admin\print\skaw.php on line 76.
+ 1 APPPATH\Views\admin\print\skaw.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'D:\\xampp\\htdocs\\app-suratci4\\app\\Views\\admin\\print\\skaw.php', 76)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\app-suratci4\\app\\Views\\admin\\print\\skaw.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/print/skaw', [], true)
+ 5 APPPATH\Controllers\Admin\DataSurat.php(2238): view('admin/print/skaw', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataSurat->updateSkaw()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 06:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 06:41:39 --> Undefined array key 1
+in APPPATH\Views\admin\edit\edit-skaw.php on line 59.
+ 1 APPPATH\Views\admin\edit\edit-skaw.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'D:\\xampp\\htdocs\\app-suratci4\\app\\Views\\admin\\edit\\edit-skaw.php', 59)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\app-suratci4\\app\\Views\\admin\\edit\\edit-skaw.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/edit/edit-skaw', [], true)
+ 5 APPPATH\Controllers\Admin\DataSurat.php(2183): view('admin/edit/edit-skaw', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataSurat->editSkaw('SR0012')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 06:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 06:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 06:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 06:41:48 --> Undefined array key 1
+in APPPATH\Views\admin\edit\edit-skaw.php on line 59.
+ 1 APPPATH\Views\admin\edit\edit-skaw.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'D:\\xampp\\htdocs\\app-suratci4\\app\\Views\\admin\\edit\\edit-skaw.php', 59)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\app-suratci4\\app\\Views\\admin\\edit\\edit-skaw.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/edit/edit-skaw', [], true)
+ 5 APPPATH\Controllers\Admin\DataSurat.php(2183): view('admin/edit/edit-skaw', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataSurat->editSkaw('SR0012')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 06:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 12:40:03 --> Undefined array key 1
+in APPPATH\Views\admin\edit\edit-skaw.php on line 59.
+ 1 APPPATH\Views\admin\edit\edit-skaw.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'D:\\xampp\\htdocs\\app-suratci4\\app\\Views\\admin\\edit\\edit-skaw.php', 59)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\app-suratci4\\app\\Views\\admin\\edit\\edit-skaw.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/edit/edit-skaw', [], true)
+ 5 APPPATH\Controllers\Admin\DataSurat.php(2183): view('admin/edit/edit-skaw', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataSurat->editSkaw('SR0012')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 12:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 12:40:52 --> Undefined array key 1
+in APPPATH\Views\admin\edit\edit-skaw.php on line 59.
+ 1 APPPATH\Views\admin\edit\edit-skaw.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'D:\\xampp\\htdocs\\app-suratci4\\app\\Views\\admin\\edit\\edit-skaw.php', 59)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\app-suratci4\\app\\Views\\admin\\edit\\edit-skaw.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/edit/edit-skaw', [], true)
+ 5 APPPATH\Controllers\Admin\DataSurat.php(2183): view('admin/edit/edit-skaw', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataSurat->editSkaw('SR0012')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 12:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-27 12:48:20 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\xampp\htdocs\app-suratci4\app\Models\AhliwarisModel.php(41): CodeIgniter\BaseModel->delete()
+#7 D:\xampp\htdocs\app-suratci4\app\Controllers\Admin\DataSurat.php(2211): App\Models\AhliwarisModel->delAw(Array)
+#8 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\DataSurat->updateSkaw()
+#9 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+#10 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\app-suratci4\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-27 12:48:20 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb_ahliwaris`
+WHERE `id` = (\'1\',\'2\',\'3\',\'7\',\'8\',\'9\',\'23\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_ahliwaris`
+WHERE `id` = (\'1\',\'2\',\'3\',\'7\',\'8\',\'9\',\'23\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_ahliwaris`
+WHERE `id` = (\'1\',\'2\',\'3\',\'7\',\'8\',\'9\',\'23\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_ahliwaris`
+WHERE `id` = :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Models\AhliwarisModel.php(41): CodeIgniter\BaseModel->delete()
+ 8 APPPATH\Controllers\Admin\DataSurat.php(2211): App\Models\AhliwarisModel->delAw([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataSurat->updateSkaw()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 12:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-27 12:48:54 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\xampp\htdocs\app-suratci4\app\Models\AhliwarisModel.php(41): CodeIgniter\BaseModel->delete()
+#7 D:\xampp\htdocs\app-suratci4\app\Controllers\Admin\DataSurat.php(2211): App\Models\AhliwarisModel->delAw(Array)
+#8 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\DataSurat->updateSkaw()
+#9 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+#10 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\app-suratci4\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-27 12:48:54 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb_ahliwaris`
+WHERE `id` = (\'1\',\'2\',\'3\',\'7\',\'8\',\'9\',\'23\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_ahliwaris`
+WHERE `id` = (\'1\',\'2\',\'3\',\'7\',\'8\',\'9\',\'23\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_ahliwaris`
+WHERE `id` = (\'1\',\'2\',\'3\',\'7\',\'8\',\'9\',\'23\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_ahliwaris`
+WHERE `id` = :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Models\AhliwarisModel.php(41): CodeIgniter\BaseModel->delete()
+ 8 APPPATH\Controllers\Admin\DataSurat.php(2211): App\Models\AhliwarisModel->delAw([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataSurat->updateSkaw()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 12:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-27 12:56:17 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Email\Email.php:1730
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'D:\\xampp\\htdocs...', 1730)
+#1 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Email\Email.php(1730): mail('rahayu@gmail.co...', '=?UTF-8?Q?Activ...', 'This is a multi...', 'Date: Fri, 27 O...')
+#2 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 D:\xampp\htdocs\app-suratci4\vendor\myth\auth\src\Authentication\Activators\EmailActivator.php(32): CodeIgniter\Email\Email->send()
+#5 D:\xampp\htdocs\app-suratci4\vendor\myth\auth\src\Controllers\AuthController.php(185): Myth\Auth\Authentication\Activators\EmailActivator->send(Object(Myth\Auth\Entities\User))
+#6 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->attemptRegister()
+#7 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\app-suratci4\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-27 12:56:17 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-10-27 12:56:17 --> 
+INFO - 2023-10-27 12:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-27 12:59:33 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Email\Email.php:1730
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'D:\\xampp\\htdocs...', 1730)
+#1 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Email\Email.php(1730): mail('sdccreator12@gm...', '=?UTF-8?Q?Activ...', 'This is a multi...', 'Date: Fri, 27 O...')
+#2 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 D:\xampp\htdocs\app-suratci4\vendor\myth\auth\src\Authentication\Activators\EmailActivator.php(32): CodeIgniter\Email\Email->send()
+#5 D:\xampp\htdocs\app-suratci4\vendor\myth\auth\src\Controllers\AuthController.php(185): Myth\Auth\Authentication\Activators\EmailActivator->send(Object(Myth\Auth\Entities\User))
+#6 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->attemptRegister()
+#7 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\app-suratci4\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-27 12:59:33 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-10-27 12:59:33 --> 
+INFO - 2023-10-27 12:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 16:18:27 --> Undefined array key "desa"
+in APPPATH\Views\admin\print\skkb.php on line 79.
+ 1 APPPATH\Views\admin\print\skkb.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "desa"', 'D:\\xampp\\htdocs\\app-suratci4\\app\\Views\\admin\\print\\skkb.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\app-suratci4\\app\\Views\\admin\\print\\skkb.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/print/skkb', [], true)
+ 5 APPPATH\Controllers\Admin\DataSurat.php(2473): view('admin/print/skkb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataSurat->saveSkkb()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 16:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 20:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 20:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 20:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 20:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 21:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 21:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 21:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 21:08:49 --> Invalid file: "admin/create/create-sktu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/create/create-sktu.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/create/create-sktu', [], true)
+ 3 APPPATH\Controllers\Admin\DataSurat.php(282): view('admin/create/create-sktu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataSurat->formSktu()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 21:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 21:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 21:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 21:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 21:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 21:25:11 --> Undefined variable $kode
+in APPPATH\Controllers\Admin\DataSurat.php on line 272.
+ 1 APPPATH\Controllers\Admin\DataSurat.php(272): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode', 'D:\\xampp\\htdocs\\app-suratci4\\app\\Controllers\\Admin\\DataSurat.php', 272)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataSurat->formSktu()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 21:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 21:25:29 --> Too few arguments to function App\Controllers\Admin\DataSurat::formSktu(), 0 passed in D:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Admin\DataSurat.php on line 265.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataSurat->formSktu()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 21:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 21:26:57 --> Too few arguments to function App\Models\JenissuratModel::getJenisSuratByKode(), 0 passed in D:\xampp\htdocs\app-suratci4\app\Controllers\Admin\DataSurat.php on line 272 and exactly 1 expected
+in APPPATH\Models\JenissuratModel.php on line 33.
+ 1 APPPATH\Controllers\Admin\DataSurat.php(272): App\Models\JenissuratModel->getJenisSuratByKode()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataSurat->formSktu()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 21:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 21:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 21:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 21:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

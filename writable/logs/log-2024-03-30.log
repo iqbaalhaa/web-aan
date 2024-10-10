@@ -1,0 +1,1247 @@
+INFO - 2024-03-30 00:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 00:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 00:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 00:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 00:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 00:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 00:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 00:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 00:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 00:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 00:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 00:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 00:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 00:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 00:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-30 00:54:32 --> ErrorException: Undefined property: Myth\Auth\Config\Auth::$activeResetter
+in APPPATH\Views\warga\warga.php on line 255.
+ 1 APPPATH\Views\warga\warga.php(255): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Myth\\Auth\\Config\\Auth::$activeResetter', 'C:\\xampp\\htdocs\\app-suratci4\\app\\Views\\warga\\warga.php', 255)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\app-suratci4\\app\\Views\\warga\\warga.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('\\App\\Views\\warga\\warga', [], true)
+ 5 FCPATH\vendor\myth\auth\src\Controllers\AuthController.php(483): view('\\App\\Views\\warga\\warga', [...])
+ 6 FCPATH\vendor\myth\auth\src\Controllers\AuthController.php(128): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\warga\\warga', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 00:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 00:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 00:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 00:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 00:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 00:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 00:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 00:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 00:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 00:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-30 00:58:45 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\warga\home.php on line 88.
+ 1 APPPATH\Views\warga\home.php(88): substr(null, 0, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\app-suratci4\\app\\Views\\warga\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('warga/home', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(106): view('warga/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 00:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-30 01:00:07 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\warga\home.php on line 88.
+ 1 APPPATH\Views\warga\home.php(88): substr(null, 0, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\app-suratci4\\app\\Views\\warga\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('warga/home', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(106): view('warga/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 01:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-30 01:00:25 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\warga\home.php on line 88.
+ 1 APPPATH\Views\warga\home.php(88): substr(null, 0, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\app-suratci4\\app\\Views\\warga\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('warga/home', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(106): view('warga/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 01:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-30 01:02:09 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\create\create-skktm.php on line 32.
+ 1 APPPATH\Views\admin\create\create-skktm.php(32): substr(null, 2, 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\app-suratci4\\app\\Views\\admin\\create\\create-skktm.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/create/create-skktm', [], true)
+ 5 APPPATH\Controllers\Admin\DataSurat.php(2147): view('admin/create/create-skktm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->formSkktm('JS013')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 01:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-30 01:05:15 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\warga\home.php on line 88.
+ 1 APPPATH\Views\warga\home.php(88): substr(null, 0, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\app-suratci4\\app\\Views\\warga\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('warga/home', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(106): view('warga/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 01:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-30 01:05:44 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\warga\home.php on line 88.
+ 1 APPPATH\Views\warga\home.php(88): substr(null, 0, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\app-suratci4\\app\\Views\\warga\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('warga/home', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(106): view('warga/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 01:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-30 01:06:21 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\create\create-skktm.php on line 32.
+ 1 APPPATH\Views\admin\create\create-skktm.php(32): substr(null, 2, 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\app-suratci4\\app\\Views\\admin\\create\\create-skktm.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/create/create-skktm', [], true)
+ 5 APPPATH\Controllers\Admin\DataSurat.php(2147): view('admin/create/create-skktm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->formSkktm('JS013')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 01:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-30 01:06:39 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\warga\home.php on line 88.
+ 1 APPPATH\Views\warga\home.php(88): substr(null, 0, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\app-suratci4\\app\\Views\\warga\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('warga/home', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(106): view('warga/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 01:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-30 01:07:45 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\create\create-kelahiran.php on line 32.
+ 1 APPPATH\Views\admin\create\create-kelahiran.php(32): substr(null, 2, 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\app-suratci4\\app\\Views\\admin\\create\\create-kelahiran.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/create/create-kelahiran', [], true)
+ 5 APPPATH\Controllers\Admin\DataSurat.php(4699): view('admin/create/create-kelahiran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->formKelahiran('JS029')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 01:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-30 01:08:21 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\warga\home.php on line 88.
+ 1 APPPATH\Views\warga\home.php(88): substr(null, 0, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\app-suratci4\\app\\Views\\warga\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('warga/home', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(106): view('warga/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 01:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-30 01:08:32 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\warga\home.php on line 88.
+ 1 APPPATH\Views\warga\home.php(88): substr(null, 0, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\app-suratci4\\app\\Views\\warga\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('warga/home', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(106): view('warga/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 01:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-30 01:09:41 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\create\create-skmati.php on line 32.
+ 1 APPPATH\Views\admin\create\create-skmati.php(32): substr(null, 2, 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\app-suratci4\\app\\Views\\admin\\create\\create-skmati.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/create/create-skmati', [], true)
+ 5 APPPATH\Controllers\Admin\DataSurat.php(2952): view('admin/create/create-skmati', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->formSkmati('JS018')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 01:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-30 01:11:14 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\warga\home.php on line 88.
+ 1 APPPATH\Views\warga\home.php(88): substr(null, 0, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\app-suratci4\\app\\Views\\warga\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('warga/home', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(106): view('warga/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 01:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-30 01:12:02 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\create\create-skmati.php on line 32.
+ 1 APPPATH\Views\admin\create\create-skmati.php(32): substr(null, 2, 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\app-suratci4\\app\\Views\\admin\\create\\create-skmati.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/create/create-skmati', [], true)
+ 5 APPPATH\Controllers\Admin\DataSurat.php(2952): view('admin/create/create-skmati', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->formSkmati('JS018')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 01:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-30 01:18:35 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\create\create-sktu.php on line 32.
+ 1 APPPATH\Views\admin\create\create-sktu.php(32): substr(null, 2, 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\app-suratci4\\app\\Views\\admin\\create\\create-sktu.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/create/create-sktu', [], true)
+ 5 APPPATH\Controllers\Admin\DataSurat.php(1559): view('admin/create/create-sktu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->formSktu('JS009')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 01:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 01:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-30 01:24:25 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\warga\home.php on line 88.
+ 1 APPPATH\Views\warga\home.php(88): substr(null, 0, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\app-suratci4\\app\\Views\\warga\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('warga/home', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(106): view('warga/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 01:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-30 02:02:31 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\warga\home.php on line 88.
+ 1 APPPATH\Views\warga\home.php(88): substr(null, 0, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\app-suratci4\\app\\Views\\warga\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('warga/home', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(106): view('warga/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 02:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-30 02:03:58 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\create\create-skkb.php on line 31.
+ 1 APPPATH\Views\admin\create\create-skkb.php(31): substr(null, 2, 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\app-suratci4\\app\\Views\\admin\\create\\create-skkb.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/create/create-skkb', [], true)
+ 5 APPPATH\Controllers\Admin\DataSurat.php(3646): view('admin/create/create-skkb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->formSkkb('JS022')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 02:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-30 02:04:56 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\create\create-sku.php on line 32.
+ 1 APPPATH\Views\admin\create\create-sku.php(32): substr(null, 2, 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\app-suratci4\\app\\Views\\admin\\create\\create-sku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/create/create-sku', [], true)
+ 5 APPPATH\Controllers\Admin\DataSurat.php(1416): view('admin/create/create-sku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->formSku('JS008')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 02:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-30 02:20:15 --> mysqli_sql_exception: Duplicate entry 'SR0002' for key 'kode_surat_2' in C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(713): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\app-suratci4\app\Models\SuratModel.php(122): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\app-suratci4\app\Controllers\Admin\DataSurat.php(1438): App\Models\SuratModel->saveSurat(NULL, 'SR0002', 'JS008', '475.43/0002/III...', 'Keterangan Usah...', '180123540217000...', '1', '1')
+#10 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+#11 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+#12 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\app-suratci4\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-03-30 02:20:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'SR0002' for key 'kode_surat_2'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (:kode_surat:, :kode_jenis:, :no_surat:, :nama_surat:, :isi_surat:, :ttd:, :user:, :unique_code:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Models\SuratModel.php(122): CodeIgniter\BaseModel->save([...])
+ 7 APPPATH\Controllers\Admin\DataSurat.php(1438): App\Models\SuratModel->saveSurat(null, 'SR0002', 'JS008', '475.43/0002/III/2024', 'Keterangan Usaha', '1801235402170001#INDRA CAHYANI ATHIFAH#Perempuan#Islam#Dusun Sinar Jaya Rt./Rw. 001/001#tes#2024-03-20#Anggrek', '1', '1')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 02:20:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'SR0002' for key 'kode_surat_2'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0002\', \'JS008\', \'475.43/0002/III/2024\', \'Keterangan Usaha\', \'1801235402170001#INDRA CAHYANI ATHIFAH#Perempuan#Islam#Dusun Sinar Jaya Rt./Rw. 001/001#tes#2024-03-20#Anggrek\', \'1\', \'1\', \'069cb885755b79a0586c33fa0edbbca8be75f80e\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0002\', \'JS008\', \'475.43/0002/III/2024\', \'Keterangan Usaha\', \'1801235402170001#INDRA CAHYANI ATHIFAH#Perempuan#Islam#Dusun Sinar Jaya Rt./Rw. 001/001#tes#2024-03-20#Anggrek\', \'1\', \'1\', \'069cb885755b79a0586c33fa0edbbca8be75f80e\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (:kode_surat:, :kode_jenis:, :no_surat:, :nama_surat:, :isi_surat:, :ttd:, :user:, :unique_code:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Models\SuratModel.php(122): CodeIgniter\BaseModel->save([...])
+ 9 APPPATH\Controllers\Admin\DataSurat.php(1438): App\Models\SuratModel->saveSurat(null, 'SR0002', 'JS008', '475.43/0002/III/2024', 'Keterangan Usaha', '1801235402170001#INDRA CAHYANI ATHIFAH#Perempuan#Islam#Dusun Sinar Jaya Rt./Rw. 001/001#tes#2024-03-20#Anggrek', '1', '1')
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 02:20:15 --> [Caused by] mysqli_sql_exception: Duplicate entry 'SR0002' for key 'kode_surat_2'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0002\', \'JS008\', \'475.43/0002/III/2024\', \'Keterangan Usaha\', \'1801235402170001#INDRA CAHYANI ATHIFAH#Perempuan#Islam#Dusun Sinar Jaya Rt./Rw. 001/001#tes#2024-03-20#Anggrek\', \'1\', \'1\', \'069cb885755b79a0586c33fa0edbbca8be75f80e\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0002\', \'JS008\', \'475.43/0002/III/2024\', \'Keterangan Usaha\', \'1801235402170001#INDRA CAHYANI ATHIFAH#Perempuan#Islam#Dusun Sinar Jaya Rt./Rw. 001/001#tes#2024-03-20#Anggrek\', \'1\', \'1\', \'069cb885755b79a0586c33fa0edbbca8be75f80e\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0002\', \'JS008\', \'475.43/0002/III/2024\', \'Keterangan Usaha\', \'1801235402170001#INDRA CAHYANI ATHIFAH#Perempuan#Islam#Dusun Sinar Jaya Rt./Rw. 001/001#tes#2024-03-20#Anggrek\', \'1\', \'1\', \'069cb885755b79a0586c33fa0edbbca8be75f80e\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (:kode_surat:, :kode_jenis:, :no_surat:, :nama_surat:, :isi_surat:, :ttd:, :user:, :unique_code:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\SuratModel.php(122): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\Admin\DataSurat.php(1438): App\Models\SuratModel->saveSurat(null, 'SR0002', 'JS008', '475.43/0002/III/2024', 'Keterangan Usaha', '1801235402170001#INDRA CAHYANI ATHIFAH#Perempuan#Islam#Dusun Sinar Jaya Rt./Rw. 001/001#tes#2024-03-20#Anggrek', '1', '1')
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 02:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-30 02:31:48 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\admin\print\sku.php on line 167.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/print/sku', [], true)
+ 3 APPPATH\Controllers\Admin\DataSurat.php(1454): view('admin/print/sku', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 02:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-30 02:32:14 --> mysqli_sql_exception: Duplicate entry 'SR0013' for key 'kode_surat_2' in C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(713): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\app-suratci4\app\Models\SuratModel.php(122): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\app-suratci4\app\Controllers\Admin\DataSurat.php(1438): App\Models\SuratModel->saveSurat(NULL, 'SR0013', 'JS008', '475.43/0013/III...', 'Keterangan Usah...', '180123050107000...', '1', '1')
+#10 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+#11 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+#12 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\app-suratci4\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-03-30 02:32:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'SR0013' for key 'kode_surat_2'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (:kode_surat:, :kode_jenis:, :no_surat:, :nama_surat:, :isi_surat:, :ttd:, :user:, :unique_code:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Models\SuratModel.php(122): CodeIgniter\BaseModel->save([...])
+ 7 APPPATH\Controllers\Admin\DataSurat.php(1438): App\Models\SuratModel->saveSurat(null, 'SR0013', 'JS008', '475.43/0013/III/2024', 'Keterangan Usaha', '1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi', '1', '1')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 02:32:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'SR0013' for key 'kode_surat_2'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0013\', \'JS008\', \'475.43/0013/III/2024\', \'Keterangan Usaha\', \'1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi\', \'1\', \'1\', \'2b9ff2106cbc784997504706364eb94b422f37e6\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0013\', \'JS008\', \'475.43/0013/III/2024\', \'Keterangan Usaha\', \'1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi\', \'1\', \'1\', \'2b9ff2106cbc784997504706364eb94b422f37e6\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (:kode_surat:, :kode_jenis:, :no_surat:, :nama_surat:, :isi_surat:, :ttd:, :user:, :unique_code:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Models\SuratModel.php(122): CodeIgniter\BaseModel->save([...])
+ 9 APPPATH\Controllers\Admin\DataSurat.php(1438): App\Models\SuratModel->saveSurat(null, 'SR0013', 'JS008', '475.43/0013/III/2024', 'Keterangan Usaha', '1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi', '1', '1')
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 02:32:14 --> [Caused by] mysqli_sql_exception: Duplicate entry 'SR0013' for key 'kode_surat_2'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0013\', \'JS008\', \'475.43/0013/III/2024\', \'Keterangan Usaha\', \'1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi\', \'1\', \'1\', \'2b9ff2106cbc784997504706364eb94b422f37e6\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0013\', \'JS008\', \'475.43/0013/III/2024\', \'Keterangan Usaha\', \'1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi\', \'1\', \'1\', \'2b9ff2106cbc784997504706364eb94b422f37e6\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0013\', \'JS008\', \'475.43/0013/III/2024\', \'Keterangan Usaha\', \'1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi\', \'1\', \'1\', \'2b9ff2106cbc784997504706364eb94b422f37e6\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (:kode_surat:, :kode_jenis:, :no_surat:, :nama_surat:, :isi_surat:, :ttd:, :user:, :unique_code:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\SuratModel.php(122): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\Admin\DataSurat.php(1438): App\Models\SuratModel->saveSurat(null, 'SR0013', 'JS008', '475.43/0013/III/2024', 'Keterangan Usaha', '1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi', '1', '1')
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 02:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-30 02:32:42 --> mysqli_sql_exception: Duplicate entry 'SR0013' for key 'kode_surat_2' in C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(713): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\app-suratci4\app\Models\SuratModel.php(122): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\app-suratci4\app\Controllers\Admin\DataSurat.php(1438): App\Models\SuratModel->saveSurat(NULL, 'SR0013', 'JS008', '475.43/0013/III...', 'Keterangan Usah...', '180123050107000...', '1', '1')
+#10 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+#11 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+#12 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\app-suratci4\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-03-30 02:32:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'SR0013' for key 'kode_surat_2'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (:kode_surat:, :kode_jenis:, :no_surat:, :nama_surat:, :isi_surat:, :ttd:, :user:, :unique_code:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Models\SuratModel.php(122): CodeIgniter\BaseModel->save([...])
+ 7 APPPATH\Controllers\Admin\DataSurat.php(1438): App\Models\SuratModel->saveSurat(null, 'SR0013', 'JS008', '475.43/0013/III/2024', 'Keterangan Usaha', '1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi', '1', '1')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 02:32:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'SR0013' for key 'kode_surat_2'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0013\', \'JS008\', \'475.43/0013/III/2024\', \'Keterangan Usaha\', \'1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi\', \'1\', \'1\', \'2b9ff2106cbc784997504706364eb94b422f37e6\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0013\', \'JS008\', \'475.43/0013/III/2024\', \'Keterangan Usaha\', \'1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi\', \'1\', \'1\', \'2b9ff2106cbc784997504706364eb94b422f37e6\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (:kode_surat:, :kode_jenis:, :no_surat:, :nama_surat:, :isi_surat:, :ttd:, :user:, :unique_code:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Models\SuratModel.php(122): CodeIgniter\BaseModel->save([...])
+ 9 APPPATH\Controllers\Admin\DataSurat.php(1438): App\Models\SuratModel->saveSurat(null, 'SR0013', 'JS008', '475.43/0013/III/2024', 'Keterangan Usaha', '1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi', '1', '1')
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 02:32:42 --> [Caused by] mysqli_sql_exception: Duplicate entry 'SR0013' for key 'kode_surat_2'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0013\', \'JS008\', \'475.43/0013/III/2024\', \'Keterangan Usaha\', \'1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi\', \'1\', \'1\', \'2b9ff2106cbc784997504706364eb94b422f37e6\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0013\', \'JS008\', \'475.43/0013/III/2024\', \'Keterangan Usaha\', \'1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi\', \'1\', \'1\', \'2b9ff2106cbc784997504706364eb94b422f37e6\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0013\', \'JS008\', \'475.43/0013/III/2024\', \'Keterangan Usaha\', \'1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi\', \'1\', \'1\', \'2b9ff2106cbc784997504706364eb94b422f37e6\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (:kode_surat:, :kode_jenis:, :no_surat:, :nama_surat:, :isi_surat:, :ttd:, :user:, :unique_code:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\SuratModel.php(122): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\Admin\DataSurat.php(1438): App\Models\SuratModel->saveSurat(null, 'SR0013', 'JS008', '475.43/0013/III/2024', 'Keterangan Usaha', '1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi', '1', '1')
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 02:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-30 02:32:59 --> mysqli_sql_exception: Duplicate entry 'SR0013' for key 'kode_surat_2' in C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(713): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\app-suratci4\app\Models\SuratModel.php(122): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\app-suratci4\app\Controllers\Admin\DataSurat.php(1438): App\Models\SuratModel->saveSurat(NULL, 'SR0013', 'JS008', '475.43/0013/III...', 'Keterangan Usah...', '180123050107000...', '1', '1')
+#10 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+#11 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+#12 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\app-suratci4\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-03-30 02:32:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'SR0013' for key 'kode_surat_2'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (:kode_surat:, :kode_jenis:, :no_surat:, :nama_surat:, :isi_surat:, :ttd:, :user:, :unique_code:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Models\SuratModel.php(122): CodeIgniter\BaseModel->save([...])
+ 7 APPPATH\Controllers\Admin\DataSurat.php(1438): App\Models\SuratModel->saveSurat(null, 'SR0013', 'JS008', '475.43/0013/III/2024', 'Keterangan Usaha', '1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi', '1', '1')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 02:32:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'SR0013' for key 'kode_surat_2'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0013\', \'JS008\', \'475.43/0013/III/2024\', \'Keterangan Usaha\', \'1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi\', \'1\', \'1\', \'2b9ff2106cbc784997504706364eb94b422f37e6\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0013\', \'JS008\', \'475.43/0013/III/2024\', \'Keterangan Usaha\', \'1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi\', \'1\', \'1\', \'2b9ff2106cbc784997504706364eb94b422f37e6\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (:kode_surat:, :kode_jenis:, :no_surat:, :nama_surat:, :isi_surat:, :ttd:, :user:, :unique_code:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Models\SuratModel.php(122): CodeIgniter\BaseModel->save([...])
+ 9 APPPATH\Controllers\Admin\DataSurat.php(1438): App\Models\SuratModel->saveSurat(null, 'SR0013', 'JS008', '475.43/0013/III/2024', 'Keterangan Usaha', '1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi', '1', '1')
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 02:32:59 --> [Caused by] mysqli_sql_exception: Duplicate entry 'SR0013' for key 'kode_surat_2'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0013\', \'JS008\', \'475.43/0013/III/2024\', \'Keterangan Usaha\', \'1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi\', \'1\', \'1\', \'2b9ff2106cbc784997504706364eb94b422f37e6\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0013\', \'JS008\', \'475.43/0013/III/2024\', \'Keterangan Usaha\', \'1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi\', \'1\', \'1\', \'2b9ff2106cbc784997504706364eb94b422f37e6\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0013\', \'JS008\', \'475.43/0013/III/2024\', \'Keterangan Usaha\', \'1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi\', \'1\', \'1\', \'2b9ff2106cbc784997504706364eb94b422f37e6\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (:kode_surat:, :kode_jenis:, :no_surat:, :nama_surat:, :isi_surat:, :ttd:, :user:, :unique_code:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\SuratModel.php(122): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\Admin\DataSurat.php(1438): App\Models\SuratModel->saveSurat(null, 'SR0013', 'JS008', '475.43/0013/III/2024', 'Keterangan Usaha', '1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi', '1', '1')
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 02:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-30 02:33:30 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\admin\print\sku.php on line 159.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/print/sku', [], true)
+ 3 APPPATH\Controllers\Admin\DataSurat.php(1454): view('admin/print/sku', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 02:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-30 02:33:46 --> mysqli_sql_exception: Duplicate entry 'SR0014' for key 'kode_surat_2' in C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(713): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\app-suratci4\app\Models\SuratModel.php(122): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\app-suratci4\app\Controllers\Admin\DataSurat.php(1438): App\Models\SuratModel->saveSurat(NULL, 'SR0014', 'JS008', '475.43/0014/III...', 'Keterangan Usah...', '180123050107000...', '1', '1')
+#10 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+#11 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+#12 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\app-suratci4\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-03-30 02:33:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'SR0014' for key 'kode_surat_2'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (:kode_surat:, :kode_jenis:, :no_surat:, :nama_surat:, :isi_surat:, :ttd:, :user:, :unique_code:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Models\SuratModel.php(122): CodeIgniter\BaseModel->save([...])
+ 7 APPPATH\Controllers\Admin\DataSurat.php(1438): App\Models\SuratModel->saveSurat(null, 'SR0014', 'JS008', '475.43/0014/III/2024', 'Keterangan Usaha', '1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi', '1', '1')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 02:33:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'SR0014' for key 'kode_surat_2'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0014\', \'JS008\', \'475.43/0014/III/2024\', \'Keterangan Usaha\', \'1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi\', \'1\', \'1\', \'5d5e42455e4044366e209396344674f80906c462\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0014\', \'JS008\', \'475.43/0014/III/2024\', \'Keterangan Usaha\', \'1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi\', \'1\', \'1\', \'5d5e42455e4044366e209396344674f80906c462\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (:kode_surat:, :kode_jenis:, :no_surat:, :nama_surat:, :isi_surat:, :ttd:, :user:, :unique_code:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Models\SuratModel.php(122): CodeIgniter\BaseModel->save([...])
+ 9 APPPATH\Controllers\Admin\DataSurat.php(1438): App\Models\SuratModel->saveSurat(null, 'SR0014', 'JS008', '475.43/0014/III/2024', 'Keterangan Usaha', '1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi', '1', '1')
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 02:33:46 --> [Caused by] mysqli_sql_exception: Duplicate entry 'SR0014' for key 'kode_surat_2'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0014\', \'JS008\', \'475.43/0014/III/2024\', \'Keterangan Usaha\', \'1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi\', \'1\', \'1\', \'5d5e42455e4044366e209396344674f80906c462\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0014\', \'JS008\', \'475.43/0014/III/2024\', \'Keterangan Usaha\', \'1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi\', \'1\', \'1\', \'5d5e42455e4044366e209396344674f80906c462\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0014\', \'JS008\', \'475.43/0014/III/2024\', \'Keterangan Usaha\', \'1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi\', \'1\', \'1\', \'5d5e42455e4044366e209396344674f80906c462\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (:kode_surat:, :kode_jenis:, :no_surat:, :nama_surat:, :isi_surat:, :ttd:, :user:, :unique_code:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\SuratModel.php(122): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\Admin\DataSurat.php(1438): App\Models\SuratModel->saveSurat(null, 'SR0014', 'JS008', '475.43/0014/III/2024', 'Keterangan Usaha', '1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#Gudang Farmasi', '1', '1')
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 02:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-30 02:37:08 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\warga\home.php on line 88.
+ 1 APPPATH\Views\warga\home.php(88): substr(null, 0, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\app-suratci4\\app\\Views\\warga\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('warga/home', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(106): view('warga/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 02:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-30 02:37:51 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\admin\print\sku.php on line 158.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/print/sku', [], true)
+ 3 APPPATH\Controllers\Admin\DataSurat.php(1454): view('admin/print/sku', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 02:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-30 02:38:11 --> mysqli_sql_exception: Duplicate entry 'SR0010' for key 'kode_surat_2' in C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(713): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\app-suratci4\app\Models\SuratModel.php(122): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\app-suratci4\app\Controllers\Admin\DataSurat.php(1438): App\Models\SuratModel->saveSurat(NULL, 'SR0010', 'JS008', '475.43/0010/III...', 'Keterangan Usah...', '180123050107000...', '1', '1')
+#10 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+#11 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+#12 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\app-suratci4\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-03-30 02:38:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'SR0010' for key 'kode_surat_2'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (:kode_surat:, :kode_jenis:, :no_surat:, :nama_surat:, :isi_surat:, :ttd:, :user:, :unique_code:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Models\SuratModel.php(122): CodeIgniter\BaseModel->save([...])
+ 7 APPPATH\Controllers\Admin\DataSurat.php(1438): App\Models\SuratModel->saveSurat(null, 'SR0010', 'JS008', '475.43/0010/III/2024', 'Keterangan Usaha', '1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#MATA', '1', '1')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 02:38:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'SR0010' for key 'kode_surat_2'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0010\', \'JS008\', \'475.43/0010/III/2024\', \'Keterangan Usaha\', \'1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#MATA\', \'1\', \'1\', \'dd0a94e834dbeff6d27447c0d3201d4029c40df9\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0010\', \'JS008\', \'475.43/0010/III/2024\', \'Keterangan Usaha\', \'1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#MATA\', \'1\', \'1\', \'dd0a94e834dbeff6d27447c0d3201d4029c40df9\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (:kode_surat:, :kode_jenis:, :no_surat:, :nama_surat:, :isi_surat:, :ttd:, :user:, :unique_code:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Models\SuratModel.php(122): CodeIgniter\BaseModel->save([...])
+ 9 APPPATH\Controllers\Admin\DataSurat.php(1438): App\Models\SuratModel->saveSurat(null, 'SR0010', 'JS008', '475.43/0010/III/2024', 'Keterangan Usaha', '1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#MATA', '1', '1')
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 02:38:11 --> [Caused by] mysqli_sql_exception: Duplicate entry 'SR0010' for key 'kode_surat_2'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0010\', \'JS008\', \'475.43/0010/III/2024\', \'Keterangan Usaha\', \'1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#MATA\', \'1\', \'1\', \'dd0a94e834dbeff6d27447c0d3201d4029c40df9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0010\', \'JS008\', \'475.43/0010/III/2024\', \'Keterangan Usaha\', \'1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#MATA\', \'1\', \'1\', \'dd0a94e834dbeff6d27447c0d3201d4029c40df9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (\'SR0010\', \'JS008\', \'475.43/0010/III/2024\', \'Keterangan Usaha\', \'1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#MATA\', \'1\', \'1\', \'dd0a94e834dbeff6d27447c0d3201d4029c40df9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_detailsurat` (`kode_surat`, `kode_jenis`, `no_surat`, `nama_surat`, `isi_surat`, `ttd`, `user`, `unique_code`) VALUES (:kode_surat:, :kode_jenis:, :no_surat:, :nama_surat:, :isi_surat:, :ttd:, :user:, :unique_code:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\SuratModel.php(122): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\Admin\DataSurat.php(1438): App\Models\SuratModel->saveSurat(null, 'SR0010', 'JS008', '475.43/0010/III/2024', 'Keterangan Usaha', '1801230501070001#CHAIRIL ANASRULLAH#Laki-laki#Islam#Dusun Tegal Sari Rt./Rw. 001/001#tes#2024-03-14#MATA', '1', '1')
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\DataSurat->saveSku()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSurat))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 02:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 02:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:52:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 03:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 04:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 04:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 04:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 04:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 04:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 04:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 04:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 04:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 04:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 04:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 04:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 04:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 04:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 04:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 04:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 04:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 04:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 04:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 04:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 18:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 18:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 18:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 18:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 18:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 18:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-30 18:33:49 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dbappsuratci4', 3306, '', 0)
+#1 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\app-suratci4\app\Models\StatistikModel.php(69): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\app-suratci4\vendor\myth\auth\src\Controllers\AuthController.php(86): App\Models\StatistikModel->getAllStatistikByIpTanggal('::1', '20240330')
+#8 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+#9 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\app-suratci4\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\app-suratci4\app\Models\StatistikModel.php(69): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\app-suratci4\vendor\myth\auth\src\Controllers\AuthController.php(86): App\Models\StatistikModel->getAllStatistikByIpTanggal('::1', '20240330')
+#7 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+#8 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\app-suratci4\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-30 18:33:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_statistik`
+WHERE `ip` = :ip:
+AND `tanggal` = :tanggal:', [...], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\StatistikModel.php(69): CodeIgniter\BaseModel->findAll()
+ 6 FCPATH\vendor\myth\auth\src\Controllers\AuthController.php(86): App\Models\StatistikModel->getAllStatistikByIpTanggal('::1', '20240330')
+ 7 SYSTEMPATH\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 18:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 18:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-30 18:35:57 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=11248 in C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 184)
+#1 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dbappsuratci4', 3306, '', 0)
+#2 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\app-suratci4\app\Models\StatistikModel.php(69): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\app-suratci4\vendor\myth\auth\src\Controllers\AuthController.php(86): App\Models\StatistikModel->getAllStatistikByIpTanggal('::1', '20240330')
+#9 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+#10 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\app-suratci4\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dbappsuratci4', 3306, '', 0)
+#1 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\app-suratci4\app\Models\StatistikModel.php(69): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\app-suratci4\vendor\myth\auth\src\Controllers\AuthController.php(86): App\Models\StatistikModel->getAllStatistikByIpTanggal('::1', '20240330')
+#8 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+#9 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\app-suratci4\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\app-suratci4\app\Models\StatistikModel.php(69): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\app-suratci4\vendor\myth\auth\src\Controllers\AuthController.php(86): App\Models\StatistikModel->getAllStatistikByIpTanggal('::1', '20240330')
+#7 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+#8 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\app-suratci4\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-30 18:35:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_statistik`
+WHERE `ip` = :ip:
+AND `tanggal` = :tanggal:', [...], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\StatistikModel.php(69): CodeIgniter\BaseModel->findAll()
+ 6 FCPATH\vendor\myth\auth\src\Controllers\AuthController.php(86): App\Models\StatistikModel->getAllStatistikByIpTanggal('::1', '20240330')
+ 7 SYSTEMPATH\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 18:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-30 18:36:52 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dbappsuratci4', 3306, '', 0)
+#1 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\app-suratci4\app\Models\StatistikModel.php(69): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\app-suratci4\vendor\myth\auth\src\Controllers\AuthController.php(86): App\Models\StatistikModel->getAllStatistikByIpTanggal('::1', '20240330')
+#8 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+#9 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\app-suratci4\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\app-suratci4\app\Models\StatistikModel.php(69): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\app-suratci4\vendor\myth\auth\src\Controllers\AuthController.php(86): App\Models\StatistikModel->getAllStatistikByIpTanggal('::1', '20240330')
+#7 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+#8 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\xampp\htdocs\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\app-suratci4\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-30 18:36:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_statistik`
+WHERE `ip` = :ip:
+AND `tanggal` = :tanggal:', [...], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\StatistikModel.php(69): CodeIgniter\BaseModel->findAll()
+ 6 FCPATH\vendor\myth\auth\src\Controllers\AuthController.php(86): App\Models\StatistikModel->getAllStatistikByIpTanggal('::1', '20240330')
+ 7 SYSTEMPATH\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 18:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 18:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 18:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 18:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-30 18:39:13 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\warga\home.php on line 88.
+ 1 APPPATH\Views\warga\home.php(88): substr(null, 0, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\app-suratci4\\app\\Views\\warga\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('warga/home', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(106): view('warga/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-30 18:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 18:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 18:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 18:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 18:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 18:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 18:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 18:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 18:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 18:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 18:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-30 20:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

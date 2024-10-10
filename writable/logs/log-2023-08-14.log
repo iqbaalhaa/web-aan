@@ -1,0 +1,562 @@
+INFO - 2023-08-14 22:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 22:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 22:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 22:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 22:21:20 --> [DEPRECATED] Required parameter $idSiswa follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(32): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:21:20 --> [DEPRECATED] Required parameter $idKelas follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(32): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:21:20 --> [DEPRECATED] Required parameter $idMapel follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(32): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:21:20 --> [DEPRECATED] Required parameter $tanggal follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(32): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:21:20 --> [DEPRECATED] Required parameter $idKehadiran follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(32): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:21:20 --> [DEPRECATED] Required parameter $jamKeluar follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(32): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:21:20 --> [DEPRECATED] Required parameter $idGuru follows optional parameter $idPresensi in APPPATH\Models\PresensiGuruModel.php on line 104.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiGuruModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiGuruModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(33): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiGuruModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:21:20 --> [DEPRECATED] Required parameter $tanggal follows optional parameter $idPresensi in APPPATH\Models\PresensiGuruModel.php on line 104.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiGuruModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiGuruModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(33): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiGuruModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:21:20 --> [DEPRECATED] Required parameter $idKehadiran follows optional parameter $idPresensi in APPPATH\Models\PresensiGuruModel.php on line 104.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiGuruModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiGuruModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(33): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiGuruModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 22:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 22:21:24 --> [DEPRECATED] Required parameter $idSiswa follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:21:24 --> [DEPRECATED] Required parameter $idKelas follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:21:24 --> [DEPRECATED] Required parameter $idMapel follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:21:24 --> [DEPRECATED] Required parameter $tanggal follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:21:24 --> [DEPRECATED] Required parameter $idKehadiran follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:21:24 --> [DEPRECATED] Required parameter $jamKeluar follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 22:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 22:21:38 --> [DEPRECATED] Required parameter $idSiswa follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:21:38 --> [DEPRECATED] Required parameter $idKelas follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:21:38 --> [DEPRECATED] Required parameter $idMapel follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:21:38 --> [DEPRECATED] Required parameter $tanggal follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:21:38 --> [DEPRECATED] Required parameter $idKehadiran follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:21:38 --> [DEPRECATED] Required parameter $jamKeluar follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 22:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 22:21:40 --> [DEPRECATED] Required parameter $idSiswa follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:21:40 --> [DEPRECATED] Required parameter $idKelas follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:21:40 --> [DEPRECATED] Required parameter $idMapel follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:21:40 --> [DEPRECATED] Required parameter $tanggal follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:21:40 --> [DEPRECATED] Required parameter $idKehadiran follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:21:40 --> [DEPRECATED] Required parameter $jamKeluar follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 22:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-14 22:45:15 --> [DEPRECATED] Required parameter $idSiswa follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(32): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:45:15 --> [DEPRECATED] Required parameter $idKelas follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(32): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:45:15 --> [DEPRECATED] Required parameter $idMapel follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(32): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:45:15 --> [DEPRECATED] Required parameter $tanggal follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(32): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:45:15 --> [DEPRECATED] Required parameter $idKehadiran follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(32): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:45:15 --> [DEPRECATED] Required parameter $jamKeluar follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(32): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:45:15 --> [DEPRECATED] Required parameter $idGuru follows optional parameter $idPresensi in APPPATH\Models\PresensiGuruModel.php on line 104.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiGuruModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiGuruModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(33): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiGuruModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:45:15 --> [DEPRECATED] Required parameter $tanggal follows optional parameter $idPresensi in APPPATH\Models\PresensiGuruModel.php on line 104.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiGuruModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiGuruModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(33): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiGuruModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-14 22:45:15 --> [DEPRECATED] Required parameter $idKehadiran follows optional parameter $idPresensi in APPPATH\Models\PresensiGuruModel.php on line 104.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiGuruModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiGuruModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(33): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiGuruModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 22:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 22:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 22:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 22:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 22:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 22:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 22:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 22:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 22:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 22:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 22:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 22:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 22:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 22:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 22:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 22:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 22:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 22:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 22:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 22:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 22:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 22:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 22:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 22:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-14 23:16:48 --> Typed property App\Controllers\Admin\DataJadwal::$kelasModel must not be accessed before initialization
+in APPPATH\Controllers\Admin\DataJadwal.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwal->formTambahJadwal()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwal))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 23:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-14 23:17:22 --> Undefined array key "nama_mapel"
+in APPPATH\Views\admin\jadwal\list-data-jadwal.php on line 14.
+ 1 APPPATH\Views\admin\jadwal\list-data-jadwal.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_mapel"', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwal\\list-data-jadwal.php', 14)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwal\\list-data-jadwal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwal/list-data-jadwal', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwal.php(49): view('admin/jadwal/list-data-jadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwal->ambilDataJadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwal))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 23:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-14 23:17:23 --> Undefined array key "nama_mapel"
+in APPPATH\Views\admin\jadwal\list-data-jadwal.php on line 14.
+ 1 APPPATH\Views\admin\jadwal\list-data-jadwal.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_mapel"', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwal\\list-data-jadwal.php', 14)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwal\\list-data-jadwal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwal/list-data-jadwal', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwal.php(49): view('admin/jadwal/list-data-jadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwal->ambilDataJadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwal))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 23:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-14 23:20:16 --> Undefined array key "kelas"
+in APPPATH\Views\admin\jadwal\list-data-jadwal.php on line 18.
+ 1 APPPATH\Views\admin\jadwal\list-data-jadwal.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kelas"', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwal\\list-data-jadwal.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwal\\list-data-jadwal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwal/list-data-jadwal', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwal.php(49): view('admin/jadwal/list-data-jadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwal->ambilDataJadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwal))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 23:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-14 23:20:17 --> Undefined array key "kelas"
+in APPPATH\Views\admin\jadwal\list-data-jadwal.php on line 18.
+ 1 APPPATH\Views\admin\jadwal\list-data-jadwal.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kelas"', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwal\\list-data-jadwal.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwal\\list-data-jadwal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwal/list-data-jadwal', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwal.php(49): view('admin/jadwal/list-data-jadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwal->ambilDataJadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwal))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 23:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-14 23:20:18 --> Typed property App\Controllers\Admin\DataJadwal::$kelasModel must not be accessed before initialization
+in APPPATH\Controllers\Admin\DataJadwal.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwal->formTambahJadwal()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwal))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 23:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-14 23:20:20 --> Undefined array key "kelas"
+in APPPATH\Views\admin\jadwal\list-data-jadwal.php on line 18.
+ 1 APPPATH\Views\admin\jadwal\list-data-jadwal.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kelas"', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwal\\list-data-jadwal.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwal\\list-data-jadwal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwal/list-data-jadwal', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwal.php(49): view('admin/jadwal/list-data-jadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwal->ambilDataJadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwal))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 23:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-14 23:20:21 --> Undefined array key "kelas"
+in APPPATH\Views\admin\jadwal\list-data-jadwal.php on line 18.
+ 1 APPPATH\Views\admin\jadwal\list-data-jadwal.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kelas"', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwal\\list-data-jadwal.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwal\\list-data-jadwal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwal/list-data-jadwal', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwal.php(49): view('admin/jadwal/list-data-jadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwal->ambilDataJadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwal))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 23:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-14 23:20:22 --> Undefined array key "kelas"
+in APPPATH\Views\admin\jadwal\list-data-jadwal.php on line 18.
+ 1 APPPATH\Views\admin\jadwal\list-data-jadwal.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kelas"', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwal\\list-data-jadwal.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwal\\list-data-jadwal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwal/list-data-jadwal', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwal.php(49): view('admin/jadwal/list-data-jadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwal->ambilDataJadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwal))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 23:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-14 23:20:23 --> Undefined array key "kelas"
+in APPPATH\Views\admin\jadwal\list-data-jadwal.php on line 18.
+ 1 APPPATH\Views\admin\jadwal\list-data-jadwal.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kelas"', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwal\\list-data-jadwal.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwal\\list-data-jadwal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwal/list-data-jadwal', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwal.php(49): view('admin/jadwal/list-data-jadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwal->ambilDataJadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwal))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 23:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-14 23:23:07 --> Undefined array key "kelas"
+in APPPATH\Views\admin\jadwal\list-data-jadwal.php on line 18.
+ 1 APPPATH\Views\admin\jadwal\list-data-jadwal.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kelas"', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwal\\list-data-jadwal.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwal\\list-data-jadwal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwal/list-data-jadwal', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwal.php(49): view('admin/jadwal/list-data-jadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwal->ambilDataJadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwal))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 23:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-14 23:23:08 --> Undefined array key "kelas"
+in APPPATH\Views\admin\jadwal\list-data-jadwal.php on line 18.
+ 1 APPPATH\Views\admin\jadwal\list-data-jadwal.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kelas"', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwal\\list-data-jadwal.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwal\\list-data-jadwal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwal/list-data-jadwal', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwal.php(49): view('admin/jadwal/list-data-jadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwal->ambilDataJadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwal))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 23:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-14 23:32:15 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Models\JadwalModel.php on line 43.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\JadwalModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\JadwalModel')
+ 3 APPPATH\Controllers\Admin\DataJadwal.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\JadwalModel')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataJadwal->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 23:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-14 23:33:24 --> Typed property App\Controllers\Admin\DataJadwal::$kelasModel must not be accessed before initialization
+in APPPATH\Controllers\Admin\DataJadwal.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwal->formTambahJadwal()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwal))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-14 23:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 23:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

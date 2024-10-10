@@ -1,0 +1,489 @@
+INFO - 2024-09-27 12:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 12:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-27 12:56:20 --> mysqli_sql_exception: Table 'dbappsuratci4.tb_detailsurat' doesn't exist in E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\wamp64\www\app-suratci4\app\Models\SuratModel.php(117): CodeIgniter\BaseModel->findAll()
+#7 E:\wamp64\www\app-suratci4\vendor\myth\auth\src\Controllers\AuthController.php(118): App\Models\SuratModel->getAllSuratAndStaffAndJenis()
+#8 E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+#9 E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\wamp64\www\app-suratci4\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-09-27 12:56:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'dbappsuratci4.tb_detailsurat' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_detailsurat`
+LEFT JOIN `data_staff` ON `data_staff`.`id` = `tb_detailsurat`.`ttd`
+LEFT JOIN `data_jenissurat` ON `data_jenissurat`.`kode_jenis` = `tb_detailsurat`.`kode_jenis`
+ORDER BY `tb_detailsurat`.`id_surat` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\SuratModel.php(117): CodeIgniter\BaseModel->findAll()
+ 5 FCPATH\vendor\myth\auth\src\Controllers\AuthController.php(118): App\Models\SuratModel->getAllSuratAndStaffAndJenis()
+ 6 SYSTEMPATH\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-27 12:56:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'dbappsuratci4.tb_detailsurat' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_detailsurat`
+LEFT JOIN `data_staff` ON `data_staff`.`id` = `tb_detailsurat`.`ttd`
+LEFT JOIN `data_jenissurat` ON `data_jenissurat`.`kode_jenis` = `tb_detailsurat`.`kode_jenis`
+ORDER BY `tb_detailsurat`.`id_surat` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_detailsurat`
+LEFT JOIN `data_staff` ON `data_staff`.`id` = `tb_detailsurat`.`ttd`
+LEFT JOIN `data_jenissurat` ON `data_jenissurat`.`kode_jenis` = `tb_detailsurat`.`kode_jenis`
+ORDER BY `tb_detailsurat`.`id_surat` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_detailsurat`
+LEFT JOIN `data_staff` ON `data_staff`.`id` = `tb_detailsurat`.`ttd`
+LEFT JOIN `data_jenissurat` ON `data_jenissurat`.`kode_jenis` = `tb_detailsurat`.`kode_jenis`
+ORDER BY `tb_detailsurat`.`id_surat` DESC', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\SuratModel.php(117): CodeIgniter\BaseModel->findAll()
+ 7 FCPATH\vendor\myth\auth\src\Controllers\AuthController.php(118): App\Models\SuratModel->getAllSuratAndStaffAndJenis()
+ 8 SYSTEMPATH\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-27 12:56:20 --> [Caused by] mysqli_sql_exception: Table 'dbappsuratci4.tb_detailsurat' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `tb_detailsurat`
+LEFT JOIN `data_staff` ON `data_staff`.`id` = `tb_detailsurat`.`ttd`
+LEFT JOIN `data_jenissurat` ON `data_jenissurat`.`kode_jenis` = `tb_detailsurat`.`kode_jenis`
+ORDER BY `tb_detailsurat`.`id_surat` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_detailsurat`
+LEFT JOIN `data_staff` ON `data_staff`.`id` = `tb_detailsurat`.`ttd`
+LEFT JOIN `data_jenissurat` ON `data_jenissurat`.`kode_jenis` = `tb_detailsurat`.`kode_jenis`
+ORDER BY `tb_detailsurat`.`id_surat` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_detailsurat`
+LEFT JOIN `data_staff` ON `data_staff`.`id` = `tb_detailsurat`.`ttd`
+LEFT JOIN `data_jenissurat` ON `data_jenissurat`.`kode_jenis` = `tb_detailsurat`.`kode_jenis`
+ORDER BY `tb_detailsurat`.`id_surat` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_detailsurat`
+LEFT JOIN `data_staff` ON `data_staff`.`id` = `tb_detailsurat`.`ttd`
+LEFT JOIN `data_jenissurat` ON `data_jenissurat`.`kode_jenis` = `tb_detailsurat`.`kode_jenis`
+ORDER BY `tb_detailsurat`.`id_surat` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\SuratModel.php(117): CodeIgniter\BaseModel->findAll()
+ 8 FCPATH\vendor\myth\auth\src\Controllers\AuthController.php(118): App\Models\SuratModel->getAllSuratAndStaffAndJenis()
+ 9 SYSTEMPATH\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-27 13:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-27 13:38:17 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'dbappsuratci4' in E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dbappsuratci4', 3306, '', 0)
+#1 E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\wamp64\www\app-suratci4\app\Models\StatistikModel.php(69): CodeIgniter\BaseModel->findAll()
+#7 E:\wamp64\www\app-suratci4\vendor\myth\auth\src\Controllers\AuthController.php(86): App\Models\StatistikModel->getAllStatistikByIpTanggal('::1', '20240927')
+#8 E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+#9 E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\wamp64\www\app-suratci4\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'dbappsuratci4' in E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 E:\wamp64\www\app-suratci4\app\Models\StatistikModel.php(69): CodeIgniter\BaseModel->findAll()
+#6 E:\wamp64\www\app-suratci4\vendor\myth\auth\src\Controllers\AuthController.php(86): App\Models\StatistikModel->getAllStatistikByIpTanggal('::1', '20240927')
+#7 E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+#8 E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 E:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\wamp64\www\app-suratci4\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-27 13:38:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbappsuratci4'
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_statistik`
+WHERE `ip` = :ip:
+AND `tanggal` = :tanggal:', [...], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\StatistikModel.php(69): CodeIgniter\BaseModel->findAll()
+ 6 FCPATH\vendor\myth\auth\src\Controllers\AuthController.php(86): App\Models\StatistikModel->getAllStatistikByIpTanggal('::1', '20240927')
+ 7 SYSTEMPATH\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-27 20:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-27 20:21:17 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'dbappsuratci4' in C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'dbappsuratci4', 3306, '', 0)
+#1 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\app-suratci4\app\Models\StatistikModel.php(69): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\app-suratci4\vendor\myth\auth\src\Controllers\AuthController.php(86): App\Models\StatistikModel->getAllStatistikByIpTanggal('::1', '20240927')
+#8 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+#9 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\app-suratci4\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'dbappsuratci4' in C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\app-suratci4\app\Models\StatistikModel.php(69): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\app-suratci4\vendor\myth\auth\src\Controllers\AuthController.php(86): App\Models\StatistikModel->getAllStatistikByIpTanggal('::1', '20240927')
+#7 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+#8 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\app-suratci4\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-27 20:21:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbappsuratci4'
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_statistik`
+WHERE `ip` = :ip:
+AND `tanggal` = :tanggal:', [...], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\StatistikModel.php(69): CodeIgniter\BaseModel->findAll()
+ 6 FCPATH\vendor\myth\auth\src\Controllers\AuthController.php(86): App\Models\StatistikModel->getAllStatistikByIpTanggal('::1', '20240927')
+ 7 SYSTEMPATH\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-27 20:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-27 20:24:35 --> mysqli_sql_exception: Table 'dbappsuratci4.tb_detailsurat' doesn't exist in C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\app-suratci4\app\Models\SuratModel.php(117): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\app-suratci4\vendor\myth\auth\src\Controllers\AuthController.php(118): App\Models\SuratModel->getAllSuratAndStaffAndJenis()
+#8 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+#9 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\app-suratci4\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-09-27 20:24:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'dbappsuratci4.tb_detailsurat' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_detailsurat`
+LEFT JOIN `data_staff` ON `data_staff`.`id` = `tb_detailsurat`.`ttd`
+LEFT JOIN `data_jenissurat` ON `data_jenissurat`.`kode_jenis` = `tb_detailsurat`.`kode_jenis`
+ORDER BY `tb_detailsurat`.`id_surat` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\SuratModel.php(117): CodeIgniter\BaseModel->findAll()
+ 5 FCPATH\vendor\myth\auth\src\Controllers\AuthController.php(118): App\Models\SuratModel->getAllSuratAndStaffAndJenis()
+ 6 SYSTEMPATH\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-27 20:24:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'dbappsuratci4.tb_detailsurat' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_detailsurat`
+LEFT JOIN `data_staff` ON `data_staff`.`id` = `tb_detailsurat`.`ttd`
+LEFT JOIN `data_jenissurat` ON `data_jenissurat`.`kode_jenis` = `tb_detailsurat`.`kode_jenis`
+ORDER BY `tb_detailsurat`.`id_surat` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_detailsurat`
+LEFT JOIN `data_staff` ON `data_staff`.`id` = `tb_detailsurat`.`ttd`
+LEFT JOIN `data_jenissurat` ON `data_jenissurat`.`kode_jenis` = `tb_detailsurat`.`kode_jenis`
+ORDER BY `tb_detailsurat`.`id_surat` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_detailsurat`
+LEFT JOIN `data_staff` ON `data_staff`.`id` = `tb_detailsurat`.`ttd`
+LEFT JOIN `data_jenissurat` ON `data_jenissurat`.`kode_jenis` = `tb_detailsurat`.`kode_jenis`
+ORDER BY `tb_detailsurat`.`id_surat` DESC', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\SuratModel.php(117): CodeIgniter\BaseModel->findAll()
+ 7 FCPATH\vendor\myth\auth\src\Controllers\AuthController.php(118): App\Models\SuratModel->getAllSuratAndStaffAndJenis()
+ 8 SYSTEMPATH\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-27 20:24:35 --> [Caused by] mysqli_sql_exception: Table 'dbappsuratci4.tb_detailsurat' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `tb_detailsurat`
+LEFT JOIN `data_staff` ON `data_staff`.`id` = `tb_detailsurat`.`ttd`
+LEFT JOIN `data_jenissurat` ON `data_jenissurat`.`kode_jenis` = `tb_detailsurat`.`kode_jenis`
+ORDER BY `tb_detailsurat`.`id_surat` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_detailsurat`
+LEFT JOIN `data_staff` ON `data_staff`.`id` = `tb_detailsurat`.`ttd`
+LEFT JOIN `data_jenissurat` ON `data_jenissurat`.`kode_jenis` = `tb_detailsurat`.`kode_jenis`
+ORDER BY `tb_detailsurat`.`id_surat` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_detailsurat`
+LEFT JOIN `data_staff` ON `data_staff`.`id` = `tb_detailsurat`.`ttd`
+LEFT JOIN `data_jenissurat` ON `data_jenissurat`.`kode_jenis` = `tb_detailsurat`.`kode_jenis`
+ORDER BY `tb_detailsurat`.`id_surat` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_detailsurat`
+LEFT JOIN `data_staff` ON `data_staff`.`id` = `tb_detailsurat`.`ttd`
+LEFT JOIN `data_jenissurat` ON `data_jenissurat`.`kode_jenis` = `tb_detailsurat`.`kode_jenis`
+ORDER BY `tb_detailsurat`.`id_surat` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\SuratModel.php(117): CodeIgniter\BaseModel->findAll()
+ 8 FCPATH\vendor\myth\auth\src\Controllers\AuthController.php(118): App\Models\SuratModel->getAllSuratAndStaffAndJenis()
+ 9 SYSTEMPATH\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-27 20:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-27 20:24:41 --> mysqli_sql_exception: Table 'dbappsuratci4.tb_detailsurat' doesn't exist in C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\app-suratci4\app\Models\SuratModel.php(117): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\app-suratci4\vendor\myth\auth\src\Controllers\AuthController.php(118): App\Models\SuratModel->getAllSuratAndStaffAndJenis()
+#8 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+#9 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 C:\wamp64\www\app-suratci4\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\app-suratci4\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-09-27 20:24:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'dbappsuratci4.tb_detailsurat' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_detailsurat`
+LEFT JOIN `data_staff` ON `data_staff`.`id` = `tb_detailsurat`.`ttd`
+LEFT JOIN `data_jenissurat` ON `data_jenissurat`.`kode_jenis` = `tb_detailsurat`.`kode_jenis`
+ORDER BY `tb_detailsurat`.`id_surat` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\SuratModel.php(117): CodeIgniter\BaseModel->findAll()
+ 5 FCPATH\vendor\myth\auth\src\Controllers\AuthController.php(118): App\Models\SuratModel->getAllSuratAndStaffAndJenis()
+ 6 SYSTEMPATH\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-27 20:24:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'dbappsuratci4.tb_detailsurat' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_detailsurat`
+LEFT JOIN `data_staff` ON `data_staff`.`id` = `tb_detailsurat`.`ttd`
+LEFT JOIN `data_jenissurat` ON `data_jenissurat`.`kode_jenis` = `tb_detailsurat`.`kode_jenis`
+ORDER BY `tb_detailsurat`.`id_surat` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_detailsurat`
+LEFT JOIN `data_staff` ON `data_staff`.`id` = `tb_detailsurat`.`ttd`
+LEFT JOIN `data_jenissurat` ON `data_jenissurat`.`kode_jenis` = `tb_detailsurat`.`kode_jenis`
+ORDER BY `tb_detailsurat`.`id_surat` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_detailsurat`
+LEFT JOIN `data_staff` ON `data_staff`.`id` = `tb_detailsurat`.`ttd`
+LEFT JOIN `data_jenissurat` ON `data_jenissurat`.`kode_jenis` = `tb_detailsurat`.`kode_jenis`
+ORDER BY `tb_detailsurat`.`id_surat` DESC', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\SuratModel.php(117): CodeIgniter\BaseModel->findAll()
+ 7 FCPATH\vendor\myth\auth\src\Controllers\AuthController.php(118): App\Models\SuratModel->getAllSuratAndStaffAndJenis()
+ 8 SYSTEMPATH\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-27 20:24:41 --> [Caused by] mysqli_sql_exception: Table 'dbappsuratci4.tb_detailsurat' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `tb_detailsurat`
+LEFT JOIN `data_staff` ON `data_staff`.`id` = `tb_detailsurat`.`ttd`
+LEFT JOIN `data_jenissurat` ON `data_jenissurat`.`kode_jenis` = `tb_detailsurat`.`kode_jenis`
+ORDER BY `tb_detailsurat`.`id_surat` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_detailsurat`
+LEFT JOIN `data_staff` ON `data_staff`.`id` = `tb_detailsurat`.`ttd`
+LEFT JOIN `data_jenissurat` ON `data_jenissurat`.`kode_jenis` = `tb_detailsurat`.`kode_jenis`
+ORDER BY `tb_detailsurat`.`id_surat` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_detailsurat`
+LEFT JOIN `data_staff` ON `data_staff`.`id` = `tb_detailsurat`.`ttd`
+LEFT JOIN `data_jenissurat` ON `data_jenissurat`.`kode_jenis` = `tb_detailsurat`.`kode_jenis`
+ORDER BY `tb_detailsurat`.`id_surat` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_detailsurat`
+LEFT JOIN `data_staff` ON `data_staff`.`id` = `tb_detailsurat`.`ttd`
+LEFT JOIN `data_jenissurat` ON `data_jenissurat`.`kode_jenis` = `tb_detailsurat`.`kode_jenis`
+ORDER BY `tb_detailsurat`.`id_surat` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\SuratModel.php(117): CodeIgniter\BaseModel->findAll()
+ 8 FCPATH\vendor\myth\auth\src\Controllers\AuthController.php(118): App\Models\SuratModel->getAllSuratAndStaffAndJenis()
+ 9 SYSTEMPATH\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-27 20:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 20:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 21:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

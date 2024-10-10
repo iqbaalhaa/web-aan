@@ -1,0 +1,1174 @@
+INFO - 2023-10-04 05:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 05:53:27 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\list-siswa.php on line 3.
+ 1 APPPATH\Views\admin\jadwaldetail\list-siswa.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/list-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(91): view('admin/jadwaldetail/list-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilDataSiswaUntukJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 05:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 05:55:10 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\list-siswa.php on line 4.
+ 1 APPPATH\Views\admin\jadwaldetail\list-siswa.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/list-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(92): view('admin/jadwaldetail/list-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilDataSiswaUntukJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 05:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 05:55:15 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\list-siswa.php on line 4.
+ 1 APPPATH\Views\admin\jadwaldetail\list-siswa.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/list-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(92): view('admin/jadwaldetail/list-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilDataSiswaUntukJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 05:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 05:56:08 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\list-siswa.php on line 4.
+ 1 APPPATH\Views\admin\jadwaldetail\list-siswa.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/list-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(92): view('admin/jadwaldetail/list-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilDataSiswaUntukJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 05:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 05:56:09 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\list-siswa.php on line 4.
+ 1 APPPATH\Views\admin\jadwaldetail\list-siswa.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/list-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(92): view('admin/jadwaldetail/list-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilDataSiswaUntukJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 05:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 05:56:10 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\list-siswa.php on line 4.
+ 1 APPPATH\Views\admin\jadwaldetail\list-siswa.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/list-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(92): view('admin/jadwaldetail/list-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilDataSiswaUntukJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 05:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 05:56:10 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\list-siswa.php on line 4.
+ 1 APPPATH\Views\admin\jadwaldetail\list-siswa.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/list-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(92): view('admin/jadwaldetail/list-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilDataSiswaUntukJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 05:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 05:56:11 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\list-siswa.php on line 4.
+ 1 APPPATH\Views\admin\jadwaldetail\list-siswa.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/list-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(92): view('admin/jadwaldetail/list-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilDataSiswaUntukJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 05:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 05:56:11 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\list-siswa.php on line 4.
+ 1 APPPATH\Views\admin\jadwaldetail\list-siswa.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/list-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(92): view('admin/jadwaldetail/list-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilDataSiswaUntukJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 05:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 05:56:12 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\list-siswa.php on line 4.
+ 1 APPPATH\Views\admin\jadwaldetail\list-siswa.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/list-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(92): view('admin/jadwaldetail/list-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilDataSiswaUntukJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 05:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 05:57:58 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\Admin\DataJadwalDetail.php on line 86.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Controllers\\Admin\\DataJadwalDetail.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\DataJadwalDetail')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\DataJadwalDetail')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Admin\\DataJadwalDetail', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 05:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 05:57:59 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\Admin\DataJadwalDetail.php on line 86.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Controllers\\Admin\\DataJadwalDetail.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\DataJadwalDetail')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\DataJadwalDetail')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Admin\\DataJadwalDetail', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 05:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 05:58:00 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\Admin\DataJadwalDetail.php on line 86.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Controllers\\Admin\\DataJadwalDetail.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\DataJadwalDetail')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\DataJadwalDetail')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Admin\\DataJadwalDetail', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 05:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 05:58:09 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\list-siswa.php on line 4.
+ 1 APPPATH\Views\admin\jadwaldetail\list-siswa.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/list-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(92): view('admin/jadwaldetail/list-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilDataSiswaUntukJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 05:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 05:58:10 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\list-siswa.php on line 4.
+ 1 APPPATH\Views\admin\jadwaldetail\list-siswa.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/list-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(92): view('admin/jadwaldetail/list-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilDataSiswaUntukJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 05:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 05:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 06:00:18 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\list-siswa.php on line 4.
+ 1 APPPATH\Views\admin\jadwaldetail\list-siswa.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/list-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(93): view('admin/jadwaldetail/list-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilDataSiswaUntukJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 06:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 06:16:44 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\list-siswa.php on line 3.
+ 1 APPPATH\Views\admin\jadwaldetail\list-siswa.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/list-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(93): view('admin/jadwaldetail/list-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilDataSiswaUntukJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 06:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 06:18:04 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\list-siswa.php on line 3.
+ 1 APPPATH\Views\admin\jadwaldetail\list-siswa.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/list-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(93): view('admin/jadwaldetail/list-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilDataSiswaUntukJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 06:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 06:18:05 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\list-siswa.php on line 3.
+ 1 APPPATH\Views\admin\jadwaldetail\list-siswa.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/list-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(93): view('admin/jadwaldetail/list-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilDataSiswaUntukJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 06:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 06:18:06 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\list-siswa.php on line 3.
+ 1 APPPATH\Views\admin\jadwaldetail\list-siswa.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/list-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(93): view('admin/jadwaldetail/list-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilDataSiswaUntukJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 06:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 06:18:52 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\list-siswa.php on line 3.
+ 1 APPPATH\Views\admin\jadwaldetail\list-siswa.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/list-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(92): view('admin/jadwaldetail/list-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilDataSiswaUntukJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 06:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 06:18:53 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\list-siswa.php on line 3.
+ 1 APPPATH\Views\admin\jadwaldetail\list-siswa.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/list-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(92): view('admin/jadwaldetail/list-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilDataSiswaUntukJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 06:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 06:18:54 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\list-siswa.php on line 3.
+ 1 APPPATH\Views\admin\jadwaldetail\list-siswa.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/list-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(92): view('admin/jadwaldetail/list-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilDataSiswaUntukJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 06:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 06:18:54 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\list-siswa.php on line 3.
+ 1 APPPATH\Views\admin\jadwaldetail\list-siswa.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/list-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(92): view('admin/jadwaldetail/list-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilDataSiswaUntukJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 06:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-04 06:21:14 --> [DEPRECATED] Required parameter $idSiswa follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 115.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(34): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-04 06:21:14 --> [DEPRECATED] Required parameter $idKelas follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 115.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(34): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-04 06:21:14 --> [DEPRECATED] Required parameter $idJadwal follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 115.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(34): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-04 06:21:14 --> [DEPRECATED] Required parameter $tanggal follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 115.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(34): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-04 06:21:14 --> [DEPRECATED] Required parameter $idKehadiran follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 115.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(34): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-04 06:21:14 --> [DEPRECATED] Required parameter $jamKeluar follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 115.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(34): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 06:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 06:21:40 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\list-siswa.php on line 3.
+ 1 APPPATH\Views\admin\jadwaldetail\list-siswa.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/list-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(92): view('admin/jadwaldetail/list-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilDataSiswaUntukJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 06:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 06:22:31 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\list-siswa.php on line 3.
+ 1 APPPATH\Views\admin\jadwaldetail\list-siswa.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/list-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(92): view('admin/jadwaldetail/list-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilDataSiswaUntukJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 06:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 06:22:32 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\list-siswa.php on line 3.
+ 1 APPPATH\Views\admin\jadwaldetail\list-siswa.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/list-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(92): view('admin/jadwaldetail/list-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilDataSiswaUntukJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 06:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 06:23:29 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\list-siswa.php on line 3.
+ 1 APPPATH\Views\admin\jadwaldetail\list-siswa.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/list-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(92): view('admin/jadwaldetail/list-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilDataSiswaUntukJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 06:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 06:23:30 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\list-siswa.php on line 3.
+ 1 APPPATH\Views\admin\jadwaldetail\list-siswa.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\list-siswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/list-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(92): view('admin/jadwaldetail/list-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilDataSiswaUntukJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 06:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 06:24:33 --> Undefined variable $validation
+in APPPATH\Views\admin\jadwaldetail\create-data-jadwal-detail.php on line 86.
+ 1 APPPATH\Views\admin\jadwaldetail\create-data-jadwal-detail.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\create-data-jadwal-detail.php', 86)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\create-data-jadwal-detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/create-data-jadwal-detail', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(76): view('admin/jadwaldetail/create-data-jadwal-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 06:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 06:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 07:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 07:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 08:52:36 --> Undefined variable $empty
+in APPPATH\Views\admin\jadwaldetail\create-data-jadwal-detail.php on line 101.
+ 1 APPPATH\Views\admin\jadwaldetail\create-data-jadwal-detail.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empty', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\create-data-jadwal-detail.php', 101)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\absensi-ai\\app\\Views\\admin\\jadwaldetail\\create-data-jadwal-detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jadwaldetail/create-data-jadwal-detail', [], true)
+ 5 APPPATH\Controllers\Admin\DataJadwalDetail.php(76): view('admin/jadwaldetail/create-data-jadwal-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->ambilJadwalDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 08:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-04 08:54:30 --> mysqli_sql_exception: Column 'id_jadwal' cannot be null in D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp\htdocs\absensi-ai\app\Models\JadwalDetailModel.php(65): CodeIgniter\BaseModel->save(Array)
+#9 D:\xampp\htdocs\absensi-ai\app\Controllers\Admin\DataJadwalDetail.php(125): App\Models\JadwalDetailModel->saveJadwalDetail(NULL, NULL, NULL)
+#10 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->saveJadwalDetail()
+#11 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+#12 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xampp\htdocs\absensi-ai\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-10-04 08:54:30 --> Column 'id_jadwal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (:id_jadwal:, :id_siswa:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\JadwalDetailModel.php(65): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\Admin\DataJadwalDetail.php(125): App\Models\JadwalDetailModel->saveJadwalDetail(null, null, null)
+11 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->saveJadwalDetail()
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 08:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-04 08:55:43 --> mysqli_sql_exception: Column 'id_jadwal' cannot be null in D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp\htdocs\absensi-ai\app\Models\JadwalDetailModel.php(65): CodeIgniter\BaseModel->save(Array)
+#9 D:\xampp\htdocs\absensi-ai\app\Controllers\Admin\DataJadwalDetail.php(125): App\Models\JadwalDetailModel->saveJadwalDetail(NULL, NULL, NULL)
+#10 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->saveJadwalDetail()
+#11 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+#12 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xampp\htdocs\absensi-ai\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-10-04 08:55:43 --> Column 'id_jadwal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (:id_jadwal:, :id_siswa:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\JadwalDetailModel.php(65): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\Admin\DataJadwalDetail.php(125): App\Models\JadwalDetailModel->saveJadwalDetail(null, null, null)
+11 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->saveJadwalDetail()
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 08:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-04 08:57:19 --> mysqli_sql_exception: Column 'id_jadwal' cannot be null in D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp\htdocs\absensi-ai\app\Models\JadwalDetailModel.php(65): CodeIgniter\BaseModel->save(Array)
+#9 D:\xampp\htdocs\absensi-ai\app\Controllers\Admin\DataJadwalDetail.php(125): App\Models\JadwalDetailModel->saveJadwalDetail(NULL, NULL, NULL)
+#10 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->saveJadwalDetail()
+#11 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+#12 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xampp\htdocs\absensi-ai\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-10-04 08:57:19 --> Column 'id_jadwal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (:id_jadwal:, :id_siswa:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\JadwalDetailModel.php(65): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\Admin\DataJadwalDetail.php(125): App\Models\JadwalDetailModel->saveJadwalDetail(null, null, null)
+11 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->saveJadwalDetail()
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 08:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-04 08:57:46 --> mysqli_sql_exception: Column 'id_jadwal' cannot be null in D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp\htdocs\absensi-ai\app\Models\JadwalDetailModel.php(65): CodeIgniter\BaseModel->save(Array)
+#9 D:\xampp\htdocs\absensi-ai\app\Controllers\Admin\DataJadwalDetail.php(125): App\Models\JadwalDetailModel->saveJadwalDetail(NULL, NULL, NULL)
+#10 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->saveJadwalDetail()
+#11 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+#12 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xampp\htdocs\absensi-ai\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-10-04 08:57:46 --> Column 'id_jadwal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (:id_jadwal:, :id_siswa:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\JadwalDetailModel.php(65): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\Admin\DataJadwalDetail.php(125): App\Models\JadwalDetailModel->saveJadwalDetail(null, null, null)
+11 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->saveJadwalDetail()
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 08:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-04 08:58:24 --> mysqli_sql_exception: Column 'id_jadwal' cannot be null in D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp\htdocs\absensi-ai\app\Models\JadwalDetailModel.php(65): CodeIgniter\BaseModel->save(Array)
+#9 D:\xampp\htdocs\absensi-ai\app\Controllers\Admin\DataJadwalDetail.php(125): App\Models\JadwalDetailModel->saveJadwalDetail(NULL, NULL, NULL)
+#10 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->saveJadwalDetail()
+#11 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+#12 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xampp\htdocs\absensi-ai\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-10-04 08:58:24 --> Column 'id_jadwal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (:id_jadwal:, :id_siswa:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\JadwalDetailModel.php(65): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\Admin\DataJadwalDetail.php(125): App\Models\JadwalDetailModel->saveJadwalDetail(null, null, null)
+11 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->saveJadwalDetail()
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 08:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-04 08:58:32 --> mysqli_sql_exception: Column 'id_siswa' cannot be null in D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp\htdocs\absensi-ai\app\Models\JadwalDetailModel.php(65): CodeIgniter\BaseModel->save(Array)
+#9 D:\xampp\htdocs\absensi-ai\app\Controllers\Admin\DataJadwalDetail.php(125): App\Models\JadwalDetailModel->saveJadwalDetail(NULL, '4', NULL)
+#10 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->saveJadwalDetail()
+#11 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+#12 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xampp\htdocs\absensi-ai\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-10-04 08:58:32 --> Column 'id_siswa' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (\'4\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (\'4\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (\'4\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (:id_jadwal:, :id_siswa:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\JadwalDetailModel.php(65): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\Admin\DataJadwalDetail.php(125): App\Models\JadwalDetailModel->saveJadwalDetail(null, '4', null)
+11 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->saveJadwalDetail()
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 08:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 08:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-04 08:59:21 --> mysqli_sql_exception: Operand should contain 1 column(s) in D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp\htdocs\absensi-ai\app\Models\JadwalDetailModel.php(65): CodeIgniter\BaseModel->save(Array)
+#9 D:\xampp\htdocs\absensi-ai\app\Controllers\Admin\DataJadwalDetail.php(125): App\Models\JadwalDetailModel->saveJadwalDetail(NULL, '2', Array)
+#10 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->saveJadwalDetail()
+#11 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+#12 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xampp\htdocs\absensi-ai\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-10-04 08:59:21 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (\'2\', (\'2\',\'5\',\'1\',\'4\',\'3\',\'6\'))', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (\'2\', (\'2\',\'5\',\'1\',\'4\',\'3\',\'6\'))')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (\'2\', (\'2\',\'5\',\'1\',\'4\',\'3\',\'6\'))')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (:id_jadwal:, :id_siswa:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\JadwalDetailModel.php(65): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\Admin\DataJadwalDetail.php(125): App\Models\JadwalDetailModel->saveJadwalDetail(null, '2', [...])
+11 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->saveJadwalDetail()
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 09:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-04 09:51:48 --> [DEPRECATED] Required parameter $idSiswa follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 115.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(32): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-04 09:51:48 --> [DEPRECATED] Required parameter $idKelas follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 115.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(32): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-04 09:51:48 --> [DEPRECATED] Required parameter $idJadwal follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 115.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(32): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-04 09:51:48 --> [DEPRECATED] Required parameter $tanggal follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 115.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(32): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-04 09:51:48 --> [DEPRECATED] Required parameter $idKehadiran follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 115.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(32): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-04 09:51:48 --> [DEPRECATED] Required parameter $jamKeluar follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 115.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(32): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-04 09:51:48 --> [DEPRECATED] Required parameter $idGuru follows optional parameter $idPresensi in APPPATH\Models\PresensiGuruModel.php on line 104.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiGuruModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiGuruModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(33): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiGuruModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-04 09:51:48 --> [DEPRECATED] Required parameter $tanggal follows optional parameter $idPresensi in APPPATH\Models\PresensiGuruModel.php on line 104.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiGuruModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiGuruModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(33): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiGuruModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-04 09:51:48 --> [DEPRECATED] Required parameter $idKehadiran follows optional parameter $idPresensi in APPPATH\Models\PresensiGuruModel.php on line 104.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiGuruModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiGuruModel')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(33): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiGuruModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 09:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-04 09:51:50 --> [DEPRECATED] Required parameter $idSiswa follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 115.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(34): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-04 09:51:50 --> [DEPRECATED] Required parameter $idKelas follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 115.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(34): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-04 09:51:50 --> [DEPRECATED] Required parameter $idJadwal follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 115.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(34): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-04 09:51:50 --> [DEPRECATED] Required parameter $tanggal follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 115.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(34): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-04 09:51:50 --> [DEPRECATED] Required parameter $idKehadiran follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 115.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(34): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-04 09:51:50 --> [DEPRECATED] Required parameter $jamKeluar follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 115.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(34): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 09:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-04 09:51:53 --> [DEPRECATED] Required parameter $idSiswa follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 115.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(34): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-04 09:51:53 --> [DEPRECATED] Required parameter $idKelas follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 115.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(34): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-04 09:51:53 --> [DEPRECATED] Required parameter $idJadwal follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 115.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(34): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-04 09:51:53 --> [DEPRECATED] Required parameter $tanggal follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 115.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(34): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-04 09:51:53 --> [DEPRECATED] Required parameter $idKehadiran follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 115.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(34): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-04 09:51:53 --> [DEPRECATED] Required parameter $jamKeluar follows optional parameter $idPresensi in APPPATH\Models\PresensiSiswaModel.php on line 115.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\PresensiSiswaModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PresensiSiswaModel')
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(34): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PresensiSiswaModel')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataAbsenSiswa->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 09:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-04 09:53:28 --> mysqli_sql_exception: Operand should contain 1 column(s) in D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp\htdocs\absensi-ai\app\Models\JadwalDetailModel.php(65): CodeIgniter\BaseModel->save(Array)
+#9 D:\xampp\htdocs\absensi-ai\app\Controllers\Admin\DataJadwalDetail.php(125): App\Models\JadwalDetailModel->saveJadwalDetail(NULL, '2', Array)
+#10 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->saveJadwalDetail()
+#11 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+#12 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xampp\htdocs\absensi-ai\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-10-04 09:53:28 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (\'2\', (\'2\',\'5\',\'1\',\'4\',\'3\',\'6\'))', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (\'2\', (\'2\',\'5\',\'1\',\'4\',\'3\',\'6\'))')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (\'2\', (\'2\',\'5\',\'1\',\'4\',\'3\',\'6\'))')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (:id_jadwal:, :id_siswa:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\JadwalDetailModel.php(65): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\Admin\DataJadwalDetail.php(125): App\Models\JadwalDetailModel->saveJadwalDetail(null, '2', [...])
+11 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->saveJadwalDetail()
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 09:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 09:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-04 09:55:32 --> mysqli_sql_exception: Operand should contain 1 column(s) in D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp\htdocs\absensi-ai\app\Models\JadwalDetailModel.php(65): CodeIgniter\BaseModel->save(Array)
+#9 D:\xampp\htdocs\absensi-ai\app\Controllers\Admin\DataJadwalDetail.php(125): App\Models\JadwalDetailModel->saveJadwalDetail(NULL, Array, Array)
+#10 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->saveJadwalDetail()
+#11 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+#12 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xampp\htdocs\absensi-ai\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-10-04 09:55:32 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES ((\'2\'), (\'2\',\'5\',\'1\',\'4\',\'3\',\'6\'))', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES ((\'2\'), (\'2\',\'5\',\'1\',\'4\',\'3\',\'6\'))')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES ((\'2\'), (\'2\',\'5\',\'1\',\'4\',\'3\',\'6\'))')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (:id_jadwal:, :id_siswa:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\JadwalDetailModel.php(65): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\Admin\DataJadwalDetail.php(125): App\Models\JadwalDetailModel->saveJadwalDetail(null, [...], [...])
+11 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->saveJadwalDetail()
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 09:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 09:57:35 --> syntax error, unexpected token "[", expecting ")"
+in APPPATH\Models\JadwalDetailModel.php on line 60.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\JadwalDetailModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\JadwalDetailModel')
+ 3 APPPATH\Controllers\Admin\DataJadwalDetail.php(39): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\JadwalDetailModel')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\DataJadwalDetail->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 09:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 09:57:49 --> Cannot use [] for reading
+in APPPATH\Models\JadwalDetailModel.php on line 63.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-10-04 10:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 10:31:33 --> CodeIgniter\BaseModel::doProtectFields(): Argument #1 ($data) must be of type array, null given, called in D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\BaseModel.php on line 850
+in SYSTEMPATH\BaseModel.php on line 1235.
+ 1 SYSTEMPATH\BaseModel.php(850): CodeIgniter\BaseModel->doProtectFields(null)
+ 2 APPPATH\Models\JadwalDetailModel.php(65): CodeIgniter\BaseModel->insertBatch([...])
+ 3 APPPATH\Controllers\Admin\DataJadwalDetail.php(124): App\Models\JadwalDetailModel->saveJadwalDetail(null, [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->saveJadwalDetail()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 13:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 13:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 13:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 13:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 13:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 13:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 13:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-04 13:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-04 13:01:39 --> mysqli_sql_exception: Operand should contain 1 column(s) in D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp\htdocs\absensi-ai\app\Models\JadwalDetailModel.php(65): CodeIgniter\BaseModel->save(Array)
+#9 D:\xampp\htdocs\absensi-ai\app\Controllers\Admin\DataJadwalDetail.php(124): App\Models\JadwalDetailModel->saveJadwalDetail(NULL, '1', Array)
+#10 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->saveJadwalDetail()
+#11 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+#12 D:\xampp\htdocs\absensi-ai\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xampp\htdocs\absensi-ai\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-10-04 13:01:39 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (\'1\', (\'2\',\'5\'))', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (\'1\', (\'2\',\'5\'))')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (\'1\', (\'2\',\'5\'))')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_jadwal_detail` (`id_jadwal`, `id_siswa`) VALUES (:id_jadwal:, :id_siswa:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\JadwalDetailModel.php(65): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\Admin\DataJadwalDetail.php(124): App\Models\JadwalDetailModel->saveJadwalDetail(null, '1', [...])
+11 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->saveJadwalDetail()
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 14:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 14:22:14 --> Call to undefined method App\Models\JadwalDetailModel::insert_batch
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Models\JadwalDetailModel.php(64): CodeIgniter\Model->__call('insert_batch', [...])
+ 2 APPPATH\Controllers\Admin\DataJadwalDetail.php(124): App\Models\JadwalDetailModel->saveJadwalDetail(null, '1', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->saveJadwalDetail()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-04 14:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-04 14:22:46 --> Undefined variable $builder
+in APPPATH\Models\JadwalDetailModel.php on line 62.
+ 1 APPPATH\Models\JadwalDetailModel.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $builder', 'D:\\xampp\\htdocs\\absensi-ai\\app\\Models\\JadwalDetailModel.php', 62)
+ 2 APPPATH\Controllers\Admin\DataJadwalDetail.php(124): App\Models\JadwalDetailModel->saveJadwalDetail(null, '1', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataJadwalDetail->saveJadwalDetail()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataJadwalDetail))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

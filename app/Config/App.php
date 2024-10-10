@@ -22,7 +22,7 @@ class App extends BaseConfig
      * explicitly and never rely on auto-guessing, especially in production
      * environments.
      */
-    public string $baseURL = 'http://localhost/app-suratci4';
+    public string $baseURL = 'http://localhost/web-aan/public/';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.

@@ -1,16 +1,4 @@
-<!--
-=========================================================
-* Argon Design System - v1.2.2
-=========================================================
 
-* Product Page: https://www.creative-tim.com/product/argon-design-system
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
 <!DOCTYPE html>
 <html lang="en">
 <?php foreach ($desa as $ds) :
@@ -45,7 +33,7 @@ Coded by www.creative-tim.com
         <a class="navbar-brand mr-lg-5" href="#">
           <img src="<?= base_url('assets/img/' . $ds['logo']); ?>" style="width: 40px; height: 50px;">
         </a>
-        <p style="font-size: 28px; margin-left: -30px; margin-bottom: 0px; text-shadow: 0px 1px 4px; font-weight: bold; font-family:fantasy ;">App-Surat <?= $ds['jnp'] == 'Desa' ? "Desa" : "Kelurahan"; ?></p>
+        <p style="font-size: 28px; margin-left: -30px; margin-bottom: 0px; text-shadow: 0px 1px 4px; font-weight: bold; font-family:fantasy ;">Tanah Kampung</p>
         <p style="font-size: 28px; margin-left: 10px; margin-bottom: 0px;">|</p>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -498,26 +486,12 @@ Coded by www.creative-tim.com
                     <h6 class="text-warning font-weight-light mb-2">Alamat : <?= $ds['alamat']; ?><br>Telp. : <?= $ds['telp']; ?><br>E-mail : <?= $ds['email']; ?></h6>
 
                   </div>
-                  <!-- <div class="col-lg-6 text-lg-center btn-wrapper">
-                    <button target="_blank" href="https://twitter.com/creativetim" rel="nofollow" class="btn btn-icon-only btn-twitter rounded-circle" data-toggle="tooltip" data-original-title="Follow us">
-                      <span class="btn-inner--icon"><i class="fa fa-twitter"></i></span>
-                    </button>
-                    <button target="_blank" href="https://www.facebook.com/CreativeTim/" rel="nofollow" class="btn-icon-only rounded-circle btn btn-facebook" data-toggle="tooltip" data-original-title="Like us">
-                      <span class="btn-inner--icon"><i class="fab fa-facebook"></i></span>
-                    </button>
-                    <button target="_blank" href="https://dribbble.com/creativetim" rel="nofollow" class="btn btn-icon-only btn-dribbble rounded-circle" data-toggle="tooltip" data-original-title="Follow us">
-                      <span class="btn-inner--icon"><i class="fa fa-dribbble"></i></span>
-                    </button>
-                    <button target="_blank" href="https://github.com/creativetimofficial" rel="nofollow" class="btn btn-icon-only btn-github rounded-circle" data-toggle="tooltip" data-original-title="Star on Github">
-                      <span class="btn-inner--icon"><i class="fa fa-github"></i></span>
-                    </button>
-                  </div> -->
                 </div>
                 <hr>
                 <div class="row align-items-center justify-content-md-between">
                   <div class="col-md-6">
                     <div class="copyright">
-                      &copy; 2023 <a href="" target="_blank">Mesy</a>.
+                      &copy; 2024 <a href="" target="_blank">Mhd Annajmi</a>
                     </div>
                   </div>
                   <!-- <div class="col-md-6">
