@@ -130,7 +130,7 @@
                         <option value="<?= $dt['jnp']; ?>"><?= $dt['jnp']; ?></option>
                            <option value="Desa">Desa</option>
                            <option value="Kelurahan">Kelurahan</option>
-                           <option value="Kecamatan">Kecamatan</option>
+                           <option value="Kecamatan~">Kecamatan</option>
                            <option value="Pekon">Pekon</option>
                      </select>
                   </div>

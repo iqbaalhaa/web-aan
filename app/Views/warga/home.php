@@ -34,17 +34,12 @@
                   </div>
                 <?php endif; ?>
                 <h4 style="font-size: 50px; color: white;">Selamat Datang</h4>
-                <p class="lead text-white">di Website layanan administrasi surat <?= $ds['jnp'] == 'Desa' ? "Desa" : "Kelurahan"; ?> <?= $ds['desa']; ?> Kecamatan <?= $ds['kec']; ?> Kabupaten <?= $ds['kab']; ?> </p>
+                <p class="lead text-white">di Website layanan administrasi surat Kecamatan Tanah Kampung Kota Sungai Penuh </p>
                 <div class="btn-wrapper mt-5">
                   <button data-toggle="modal" data-target="#modal-permohonan" class="btn btn-lg btn-white btn-icon mb-3 mb-sm-0">
                     <span class="btn-inner--icon"><i class="fa fa-send"></i></span>
                     <span class="btn-inner--text" style="padding-left:20px;padding-right:20px;">Kirim Permohonan</span>
                   </button>
-                </div>
-
-                <div class="mt-5">
-                  <small class="font-weight-bold mb-0 mr-2 text-white">by.</small>
-                  <p style="height: 28px; color: white;">** <?= $ds['jnp'] == 'Desa' ? "Desa" : "Kelurahan"; ?> <?= $ds['desa'];  ?>**</p>
                 </div>
               </div>
             </div>

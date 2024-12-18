@@ -123,7 +123,7 @@
     <div class="wrapper">
       <div class="section section-hero section-shaped">
         <div class="shape shape-style-1 shape-primary">
-          <!-- <span class="span-150"></span>
+          <span class="span-150"></span>
           <span class="span-50"></span>
           <span class="span-50"></span>
           <span class="span-75"></span>
@@ -132,7 +132,7 @@
           <span class="span-50"></span>
           <span class="span-100"></span>
           <span class="span-50"></span>
-          <span class="span-100"></span> -->
+          <span class="span-100"></span>
         </div>
         <div class="page-header">
           <div class="container shape-container d-flex align-items-center py-md">
@@ -141,17 +141,12 @@
                 <div class="col-lg-12 text-center">
                   <?= view('\App\Views\admin\_message_block') ?>
                   <h4 style="font-size: 50px; color: white;">Selamat Datang</h4>
-                  <p class="lead text-white">di Website layanan administrasi surat <?= $ds['jnp'] == 'Desa' ? "Desa" : "Kelurahan"; ?> <?= $ds['desa']; ?> Kecamatan <?= $ds['kec']; ?> Kabupaten <?= $ds['kab']; ?> </p>
+                  <p class="lead text-white">di Website layanan administrasi surat Kecamatan Tanah Kampung Kota Sungai Penuh </p>
                   <div class="btn-wrapper mt-5">
                     <button data-toggle="modal" data-target="#modal-form" class="btn btn-lg btn-white btn-icon mb-3 mb-sm-0">
                       <span class="btn-inner--icon"><i class="fa fa-send"></i></span>
                       <span class="btn-inner--text" style="padding-left:20px;padding-right:20px;">Kirim Permohonan</span>
                     </button>
-                  </div>
-
-                  <div class="mt-5">
-                    <small class="font-weight-bold mb-0 mr-2 text-white">by.</small>
-                    <p style="height: 28px; color: white;">** <?= $ds['jnp'] == 'Desa' ? "Desa" : "Kelurahan"; ?> <?= $ds['desa'];  ?>**</p>
                   </div>
                 </div>
               </div>
@@ -344,16 +339,15 @@
               </div>
             </div>
           </div><!-- End Pengambilan surat -->
+          <br>
+          <br>
+          <br>
           <div class="container py-md">
             <div class="row row-grid justify-content-between align-items-center">
               <div class="col-lg-7 text-center" style="top:-150px">
                 <h3 class="display-4">Web Pelayanan Administrasi Surat</h3>
-                <h5> <span class="text-success"><?= $ds['jnp'] == 'Desa' ? "Desa" : "Kelurahan"; ?> <?= $ds['desa']; ?> Kecamatan <?= $ds['kec']; ?> Kabupaten <?= $ds['kab']; ?></span></h5>
-                <p class="lead">Web pelayanan administrasi ini merupakan inovasi desa yang diharapkan dapat mempermudah warga yang ingin mengurus Administrasi surat di <?= $ds['jnp'] == 'Desa' ? "Desa" : "Kelurahan"; ?>.</p>
-                <!-- <div class="btn-wrapper">
-                  <a href="#" class="btn btn-primary mb-3 mb-sm-0">Daftar Persyaratan</a>
-                  <a href="#" class="btn btn-default">Download Formulir</a>
-                </div>
+                <h5> Kecamatan Tanah Kampung Kota Sungai Penuh</h5>
+                <p class="lead">Web pelayanan administrasi ini merupakan inovasi desa yang diharapkan dapat mempermudah warga yang ingin mengurus Administrasi surat di Kecamatan Tanah Kampung Kota Sungai Penuh</p>
                 <div class="text-center">
                   <h4 class="display-4 mb-5 mt-5">Statistik</h4>
                   <div class="row justify-content-center">
@@ -393,7 +387,7 @@
                       <p style="font-size: 14px; margin-top: -25px; text-align-last: center; align-items: center;">Total Hits</p>
                     </div>
                   </div>
-                </div> -->
+                </div>
               </div>
               <div class="col-lg-5 mb-lg-auto">
                 <div class="card bg-secondary shadow border-0">
